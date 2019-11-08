@@ -7,7 +7,7 @@ Socially conscious travel website.
 * User inputs destination/departure area, distance calculated by program.
 ## Team Members
 * [Colin (asymmetriad)](team/colin.md)
-*
+* [Qian](team/qianwenhu.md)
 *
 *
 ## Topics
