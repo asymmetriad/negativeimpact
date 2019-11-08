@@ -8,7 +8,7 @@ Socially conscious travel website.
 ## Team Members
 * [Colin (asymmetriad)](team/colin.md)
 * [Qian](team/qianwenhu.md)
-*
+* [Jiachao](team/Jiachao_Chen.md)
 *
 ## Topics
 1. 
