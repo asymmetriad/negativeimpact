@@ -1,1 +1,1 @@
-My name is Qian Wen Hu. I have experience in **Java, C++, C, SQL, HTML/CSS, some Python and Javascript**. I took CS320 last semester, so I am familiar with web application. My CS320 project mainly used Python, SQL, and HTML/CSS. 
+Hi. My name is Qian Wen Hu. I am Computer Science major. I have experience in **Java, C++, C, SQL, HTML/CSS, some Python and Javascript**. I took CS320 last semester, so I am familiar with web application. My CS320 project mainly used Python, SQL, and HTML/CSS. 
