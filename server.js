@@ -4,4 +4,4 @@ const port = 3000
 
 app.get('/', (req, res) => res.send('Negative Impact Server Go!'))
 
-app.listen(port, () => console.log(`Negative Impact server listening on ${port}!`))
+app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`))
