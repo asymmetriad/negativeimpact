@@ -14,7 +14,7 @@ Socially conscious travel website.
 1. Database (MongoDB)
 2. HTTP Server (Express.js)
 
-# Instructions.
+# Instructions
 Open up a terminal in the root directory and type this in:
 
 ```
