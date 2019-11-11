@@ -15,7 +15,14 @@ Socially conscious travel website.
 2. HTTP Server (Express.js)
 
 # Instructions
-Open up a terminal in the root directory and type this in:
+Open up a terminal in the root directory of the project and \ 
+type this in to install the dependencies locally.
+
+```
+npm install
+```
+
+Now in the same directory type this in to launch the server:
 
 ```
 node server.js
