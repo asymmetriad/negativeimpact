@@ -21,7 +21,7 @@ You need the latest stable versions of these programs:
 * node
 
 # Instructions
-Open up a terminal in the root directory of the project and 
+Open up a terminal in the root directory of the project and
 type this in to install the dependencies locally.
 
 ```
