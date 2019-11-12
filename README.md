@@ -9,7 +9,7 @@ Socially conscious travel website.
 * [Colin (asymmetriad)](team/colin.md)
 * [Qian](team/qianwenhu.md)
 * [Jiachao](team/Jiachao_Chen.md)
-*
+* [Nathan Duarte](team/nathan_duarte.md)
 ## Topic Requirements
 1. Database (MongoDB)
 2. HTTP Server (Express.js)
