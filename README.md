@@ -10,6 +10,36 @@ Socially conscious travel website.
 * [Qian](team/qianwenhu.md)
 * [Jiachao](team/Jiachao_Chen.md)
 * [Nathan Duarte](team/nathan_duarte.md)
-## Topics
-1. 
-2. 
+## Topic Requirements
+1. Database (MongoDB)
+2. HTTP Server (Express.js)
+
+# Setup
+You need the latest stable versions of these programs:
+* MongoDB
+* npm
+* node
+
+# Instructions
+Open up a terminal in the root directory of the project and 
+type this in to install the dependencies locally.
+
+```
+npm install
+```
+
+Now in the same directory type this in to launch the server:
+
+```
+node server.js
+```
+
+Now, open up a web browser and enter http://localhost:3000 in the URL bar.
+
+In order to see if the database has stored anything, run this in a terminal:
+
+```
+mongo
+use test
+show collections
+```
