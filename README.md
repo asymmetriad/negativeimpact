@@ -40,6 +40,6 @@ In order to see if the database has stored anything, run this in a terminal:
 
 ```
 mongo
-use test
+use negativeimpact
 show collections
 ```
