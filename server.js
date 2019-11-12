@@ -7,11 +7,11 @@ app.get('/', (req, res) => res.send('Negative Impact Server Go!'));
 
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
 
-mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://localhost/negativeimpact', {useNewUrlParser: true, useUnifiedTopology: true});
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
-    console.log("Connected to MongoDB test database.");
+    console.log("Connected to MongoDB Negative Impact database.");
 });
 
 let mongoTestSchema = new mongoose.Schema({
