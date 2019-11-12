@@ -1,1 +1,1 @@
-
+Hi! I'm Nathan Duarte. I'm a senior at UMass, and I've done web development for a looong time (read since middle school). I am by no means an expert in anything, but I'm comfortable with Rails/Ruby, Django/Flask/Python, Express/Node/JS, mySQL/Postgres/SQLite, and more.
