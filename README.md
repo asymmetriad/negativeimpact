@@ -9,7 +9,7 @@ Socially conscious travel website.
 * [Colin (asymmetriad)](team/colin.md)
 * [Qian](team/qianwenhu.md)
 * [Jiachao](team/Jiachao_Chen.md)
-*
+* [Nathan Duarte](team/nathan_duarte.md)
 ## Topics
 1. 
 2. 
