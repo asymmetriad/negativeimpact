@@ -1,9 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const mustache = require('mustache-express');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => res.send('Negative Impact Server Go!'));
+app.engine('mustache', mustache());
+app.set('view engine', 'mustache');
+app.set('views', __dirname + '/views');
+
+app.get('/', (req, res) => res.render('index.mustache', {hello: 'Welcome to Negative Impact!'}));
+
 
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
 
