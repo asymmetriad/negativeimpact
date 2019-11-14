@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Negative Impact</title>
-    </head>
-    <center>
-        <h2>Negative Impact</h2>
-    </center>
-    <body>
-        <center>
-            <div>
-                {{ hello}}
-            </div>
-        </center>
-       <form>
-           Distance: <input type="text" name="Distance"><br>
-           Types of Travel:
-           <select>
-               <option value="filler">optiontemplategoeshere</option>
-           </select> <input type="submit" name="calculate">Calculate</input>
-           <br>
-       </form>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Negative Impact</title>
+</head>
+<center>
+    <h2>Negative Impact</h2>
+</center>
+
+<body>
+    <div>
+        <form id="travel">
+            Distance traveled: <input type="text" name="Distance" placeholder="Enter distance traveled here..."><br>
+            Type of travel used:
+            <select>
+                <option value="filler">optiontemplategoeshere</option>
+            </select> <input type="submit" form="travel" name="calculate" value="Calculate">
+            <br>
+        </form>
+    </div>
+
+</body>
+
 </html>
