@@ -1,7 +1,12 @@
 const mongoose = require('mongoose');
 
 //create connection to database
-mongoose.connect('mongodb://localhost/negativeimpact', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://localhost/negativeimpact', {
+    useNewUrlParser: true,
+    useFindAndModify: false,
+    useCreateIndex: true,
+    useUnifiedTopology: true
+});
 let db = mongoose.connection;
 
 //conection fail
