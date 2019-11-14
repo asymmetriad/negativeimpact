@@ -1,8 +1,9 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const mustache = require('mustache-express');
 const app = express();
 const port = 3000;
+
+let User = require('./model/user');
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
@@ -13,15 +14,13 @@ app.get('/', (req, res) => res.render('index.mustache', {hello: 'Welcome to Nega
 
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
 
-mongoose.connect('mongodb://localhost/negativeimpact', {useNewUrlParser: true, useUnifiedTopology: true});
-let db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
-    console.log("Connected to MongoDB Negative Impact database.");
-});
 
-app.get('/model/users', function(req,res){
-  mongoose.model(users).find(function(err,users){
-    res.send(uses)
+app.get('/user', function(req,res){
+  let user=new User({
+    username:"username",
+    password:"password"
+  });
+  user.save(function(err,user){
+    res.send("Username: " + user.username + "\nPassword: " + user.password );
   })
 });
