@@ -14,13 +14,20 @@
 <body>
     <div>
         <form id="travel">
-            Distance traveled: <input type="text" name="Distance" placeholder="Enter distance traveled here..."><br>
-            Type of travel used:
-            <select>
+            <label for="distance">Distance traveled: </label>
+            <input type="text" name="distance" placeholder="Enter distance traveled here..."><br>
+            <label for="traveltype"> Type of travel used: </label>
+            <select form="travel" name="traveltype">
                 <option value="filler">optiontemplategoeshere</option>
-            </select> <input type="submit" form="travel" name="calculate" value="Calculate">
+            </select>
+            <input type="submit" form="travel" name="calculate" value="Calculate">
             <br>
         </form>
+    </div>
+    <div>
+        <output form="travel">
+
+        </output>
     </div>
 
 </body>
