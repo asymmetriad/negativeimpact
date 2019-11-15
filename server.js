@@ -21,9 +21,11 @@ let User = require('./model/user');
 app.get('/userdata', function(req,res){
   let user=new User({
     username:"username",
-    password:"password"
+      password:"password",
+      distance_traveled: 3000,
+      travel_type: "Car"
   });
   user.save(function(err,user){
-    res.send("Username: " + user.username + "\nPassword: " + user.password );
-  })
+    res.send("Username: " + user.username + "\nPassword: " + user.password + user.distance_traveled + user.travel_type);
+  });
 });
