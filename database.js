@@ -20,14 +20,19 @@ db.once('open', function() {
 //
 let userInfoSchema = new mongoose.Schema({
     username: String,
-    password: String
+    password: String,
+    distance_traveled: Number,
+    travel_type: String
 });
 
-let userInfo = mongoose.model("mongotest", userInfoSchema);
+let userInfo = mongoose.model("mongotst", userInfoSchema);
 let user = new userInfo({ username: 'test' ,
-                             password: 'password'});
+                          password: 'password',
+                          distance_traveled: 3000,
+                          travel_type: 'Car'
+                        });
 
-console.log(user.username + "\n" + user.password);
+console.log(user.username + "\n" + user.password + "\n" + user.distance_traveled + "\n" + user.travel_type);
 
 user.save(function (err, user) {
     if (err) return console.error(err);
