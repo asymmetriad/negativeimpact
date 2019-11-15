@@ -103,23 +103,23 @@ function checkForm() {
     }
 
     document.getElementById("formErrors").style.display = "none";
+
+    const xhr = new XMLHttpRequest();
+    xhr.onload=function(){
+      console.log(this.responseText);
+    }
+    xhr.open('POST',"register");
+    xhr.setRequestHeader("Content-type","application/json;charset=UTF-8");
+    xhr.send(JSON.stringify({
+      username:fullName.value,
+      password:password.value,
+      email:email.value
+    }));
 }
 
 
 document.getElementById("submit").addEventListener("click", function(event) {
-  console.log("aaaaaaaaaaaaaaaaaa");
    checkForm();
-
-   console.log("aaaaaaaaaaaaaaaaaa");
-
-   const xhr = new XMLHttpRequest();
-   xhr.onload=function(){
-     console.log(this.responseText);
-   }
-   xhr.open('POST',"register");
-   xhr.setRequestHeader("Content-type","application/json;charset=UTF-8");
-   xhr.send(JSON.stringify({username:"aaaa"}));
-
 
    // Prevent default form action. DO NOT REMOVE THIS LINE
    event.preventDefault();
