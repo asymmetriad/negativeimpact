@@ -4,6 +4,7 @@
   "description": "Team Name: Negative Impact. \\ Socially conscious travel website. * Calculation of pollution based on distance traveled/planned to travel, and by type of travel. * Propose alternative travel methods that cause less pollution to user based on type input (plane worse than car, etc). * User inputs destination/departure area, distance calculated by program. ## Team Members * [Colin (asymmetriad)](team/colin.md) * [Qian](team/qianwenhu.md) * [Jiachao](team/Jiachao_Chen.md) * ## Topics 1.  2.",
   "main": "server.js",
   "scripts": {
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,13 @@
   },
   "homepage": "https://github.com/asymmetriad/negativeimpact#readme",
   "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongoose": "^5.7.10",
     "mustache-express": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
