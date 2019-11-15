@@ -25,7 +25,7 @@ let userInfoSchema = new mongoose.Schema({
     travel_type: String
 });
 
-let userInfo = mongoose.model("mongotst", userInfoSchema);
+let userInfo = mongoose.model("mongotest", userInfoSchema);
 let user = new userInfo({ username: 'test' ,
                           password: 'password',
                           distance_traveled: 3000,
