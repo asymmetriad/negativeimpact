@@ -17,9 +17,11 @@
             <label for="distance">Distance traveled: </label>
             <input type="text" name="distance" placeholder="Enter distance traveled here..."><br>
             <label for="traveltype"> Type of travel used: </label>
-            <select form="travel" name="traveltype">
-                <option value="filler">optiontemplategoeshere</option>
-            </select>
+            <select form="travel" name="traveltype">{{#options}}
+                    <option value="{{value}}" {{#selected}}selected{{/selected}}>
+                        {{text}}
+                    </option>
+                {{/options}}</select>
             <input type="submit" form="travel" name="calculate" value="Calculate">
             <br>
         </form>

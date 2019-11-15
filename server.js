@@ -8,7 +8,18 @@ app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 app.set('views', __dirname + '/views');
 
-app.get('/', (req, res) => res.render('index.mustache', {hello: 'Welcome to Negative Impact!'}));
+let travel_options = {
+    options: [
+        {value: 1, text: 'Walk', selected: true},
+        {value: 2, text: 'Bicycle'},
+        {value: 3, text: 'Train'},
+        {value: 3, text: 'Bus'},
+        {value: 4, text: 'Car'},
+        {value: 5, text: 'Plane'},
+
+    ]};
+
+app.get('/', (req, res) => res.render('index.mustache', travel_options));
 
 
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
