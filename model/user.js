@@ -1,13 +1,11 @@
 //import mongoose, { Schema } from 'mongoose';
-let db = require("../db");
+const db = require("../db");
 
-let Schema = db.Schema;
-let userSchema = new Schema({
-    username: String,
-    password: String,
-    distance_traveled: Number,
-    travel_type: String
+const Schema = db.Schema;
+const userSchema = new Schema({
+    username: {type:String},
+    password: {type:String},
+    email: {type:String},
 });
 
-let User = db.model('User',userSchema);
-module.exports = User;
+module.exports = db.model('User',userSchema);
