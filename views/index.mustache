@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Negative Impact</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+    <script src="js/index.js"></script>
 </head>
 <div id="h2title">
     <h2>Negative Impact</h2>
@@ -16,14 +19,14 @@
     <div>
         <form id="travel">
             <label for="distance">Distance traveled: </label>
-            <input type="text" name="distance" placeholder="Enter distance traveled here..."><br>
+            <input type="number" form="travel" id="distance" name="distance" min="0" placeholder="Enter distance traveled here..."><br>
             <label for="traveltype"> Type of travel used: </label>
             <select form="travel" name="traveltype">{{#options}}
                     <option value="{{value}}" {{#selected}}selected{{/selected}}>
                         {{text}}
                     </option>{{/options}}
             </select>
-            <input type="submit" form="travel" name="calculate" value="Calculate">
+            <input type="submit" form="travel" id="calculate" name="calculate" value="Calculate">
             <br>
         </form>
     </div>
