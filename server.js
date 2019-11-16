@@ -8,6 +8,8 @@ app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 app.set('views', __dirname + '/views');
 
+app.use(express.static('public'));
+
 let travel_options = {
     options: [
         {value: 1, text: 'Walk', selected: true},
