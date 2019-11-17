@@ -12,12 +12,12 @@ app.use(express.static('public'));
 
 let travel_options = {
     options: [
-        {value: 1, text: 'Walk', selected: true},
-        {value: 2, text: 'Bicycle'},
-        {value: 3, text: 'Train'},
-        {value: 3, text: 'Bus'},
-        {value: 4, text: 'Car'},
-        {value: 5, text: 'Plane'},
+        {value: 'Walk', text: 'Walk', selected: true},
+        {value: 'Bicycle', text: 'Bicycle'},
+        {value: 'Train', text: 'Train'},
+        {value: 'Bus', text: 'Bus'},
+        {value: 'Car', text: 'Car'},
+        {value: 'Plane', text: 'Plane'},
 
     ]};
 
