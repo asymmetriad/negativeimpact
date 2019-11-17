@@ -22,7 +22,6 @@ function carbon_calc() {
         else if(trvtype == "Plane") {
             pts = (-10 * dist) / 3;
         }
-        alert(pts);
         let user_travel = {
             distance: dist,
             travel_type: trvtype,
