@@ -1,5 +1,17 @@
 #h2title {
     text-align: center;
     color: white;
-    background-color: black;
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 30px;
+    background-color: #4E2E2D;
+}
+
+#divtravel {
+    border: 1px;
+    border-top: 1px solid #345ede;
+    background-color: #dedede;
+    margin-right: 10px;
+    max-width: 40%;
 }
