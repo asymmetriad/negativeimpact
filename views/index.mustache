@@ -19,9 +19,9 @@
     <div>
         <form id="travel">
             <label for="distance">Distance traveled: </label>
-            <input type="number" form="travel" id="distance" name="distance" min="0" placeholder="Enter distance traveled here..."><br>
+            <input type="number" form="travel" id="distance" name="distance" min="0" placeholder="Enter distance traveled here..." required><br>
             <label for="traveltype"> Type of travel used: </label>
-            <select form="travel" name="traveltype">{{#options}}
+            <select form="travel" name="traveltype" id="traveltype">{{#options}}
                     <option value="{{value}}" {{#selected}}selected{{/selected}}>
                         {{text}}
                     </option>{{/options}}
