@@ -22,10 +22,13 @@ let travel_options = {
 
     ]};
 
-app.get('/', (req, res) => res.render('index.mustache', travel_options));
+app.get('/', (req, res) => {
+    res.render('index.mustache', travel_options);
+});
 
-app.post('/', (req,res) => {
+app.post('/form', (req,res) => {
     console.log(req.body);
+    res.redirect('/');
 });
 
 
