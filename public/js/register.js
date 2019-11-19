@@ -1,11 +1,11 @@
 function checkForm() {
    // TODO: Perform input validation
-    var formError = document.getElementById("unorderedList");
-    var fullName = document.getElementById("fullName");
-    var email = document.getElementById("email");
-    var password = document.getElementById("password");
-    var confirmP = document.getElementById("passwordConfirm");
-    var test = [false,false,false,false,false,false,false];
+    let formError = document.getElementById("unorderedList");
+    let fullName = document.getElementById("fullName");
+    let email = document.getElementById("email");
+    let password = document.getElementById("password");
+    let confirmP = document.getElementById("passwordConfirm");
+    let test = [false,false,false,false,false,false,false];
 
     //clear unorderedList item
     while( formError.firstChild ){
@@ -14,8 +14,8 @@ function checkForm() {
 
     // check if fullName is empty
    if(fullName.value.length <=0){
-        var item = document.createElement("li");
-        var error = document.createTextNode("Missing full name."); // assign error
+        let item = document.createElement("li");
+        let error = document.createTextNode("Missing full name."); // assign error
         item.appendChild(error);
         formError.appendChild(item);
         fullName.style.border = "2px solid rgb(255, 0, 0)";
@@ -24,11 +24,11 @@ function checkForm() {
         test[0]=true;
 
    // check if email is empty and is valid
-   var re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,5}$/;
-   var result = re.exec(email.value);
+   let re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,5}$/;
+   let result = re.exec(email.value);
    if(email.value.length<=0 || result ==null){
-        var item = document.createElement("li");
-        var error = document.createTextNode("Invalid or missing email address."); // assign error
+        let item = document.createElement("li");
+        let error = document.createTextNode("Invalid or missing email address."); // assign error
         item.appendChild(error);
         formError.appendChild(item);
         email.style.border = "2px solid rgb(255, 0, 0)";
@@ -38,8 +38,8 @@ function checkForm() {
 
    // check if password has >=10 and <=20 character
    if(!(password.value.length>=10 && password.value.length<=20)){
-        var item = document.createElement("li");
-        var error = document.createTextNode("Password must be between 10 and 20 characters."); // assign error
+        let item = document.createElement("li");
+        let error = document.createTextNode("Password must be between 10 and 20 characters."); // assign error
         item.appendChild(error);
         formError.appendChild(item);
         password.style.border = "2px solid rgb(255, 0, 0)";
@@ -52,8 +52,8 @@ function checkForm() {
    re = /[a-z]/;
    result = re.exec(password.value);
    if(result == null){
-        var item = document.createElement("li");
-        var error = document.createTextNode("Password must contain at least one lowercase character."); // assign error
+        let item = document.createElement("li");
+        let error = document.createTextNode("Password must contain at least one lowercase character."); // assign error
         item.appendChild(error);
         formError.appendChild(item);
         password.style.border = "2px solid rgb(255, 0, 0)";
@@ -64,8 +64,8 @@ function checkForm() {
    re = /[A-Z]/;
    result = re.exec(password.value);
    if(result == null){
-        var item = document.createElement("li");
-        var error = document.createTextNode("Password must contain at least one uppercase character."); // assign error
+        let item = document.createElement("li");
+        let error = document.createTextNode("Password must contain at least one uppercase character."); // assign error
         item.appendChild(error);
         formError.appendChild(item);
         password.style.border = "2px solid rgb(255, 0, 0)";
@@ -76,8 +76,8 @@ function checkForm() {
    re = /[0-9]/;
    result = re.exec(password.value);
    if(result == null){
-        var item = document.createElement("li");
-        var error = document.createTextNode("Password must contain at least one digit."); // assign error
+        let item = document.createElement("li");
+        let error = document.createTextNode("Password must contain at least one digit."); // assign error
         item.appendChild(error);
         formError.appendChild(item);
         password.style.border = "2px solid rgb(255, 0, 0)";
@@ -86,8 +86,8 @@ function checkForm() {
         test[5]=true;
 
    if(!(confirmP.value == password.value)){
-        var item = document.createElement("li");
-        var error = document.createTextNode("Password and confirmation password don't match."); // assign error
+        let item = document.createElement("li");
+        let error = document.createTextNode("Password and confirmation password don't match."); // assign error
         item.appendChild(error);
         formError.appendChild(item);
         confirmP.style.border = "2px solid rgb(255, 0, 0)";
@@ -97,7 +97,7 @@ function checkForm() {
 
    document.getElementById("formErrors").style.display = "block";
 
-    for(var i=0;i<test.length;i++){
+    for(let i=0;i<test.length;i++){
         if(test[i]==false)
             return;
     }
