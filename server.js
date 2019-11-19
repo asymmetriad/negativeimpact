@@ -18,7 +18,6 @@ let travel_options = {
         {value: 'Train', text: 'Train'},
         {value: 'Bus', text: 'Bus'},
         {value: 'Car', text: 'Car'},
-        {value: 'Plane', text: 'Plane'},
 
     ]};
 
