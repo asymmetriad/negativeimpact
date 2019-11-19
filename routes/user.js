@@ -4,10 +4,14 @@ const router = require("../routes/index");
 const User = require('../model/user');
 
 //login Page
-router.get('/login',(req,res) => res.render('login.mustache'));
+router.get('/login',(req,res) => {
+    res.render('login.mustache');
+});
 
 //Register Page
-router.get('/register',(req,res) => res.render('register.mustache'));
+router.get('/register',(req,res) => {
+    res.render('register.mustache');
+});
 
 //Register Handle
 router.post('/register',(req, res) => {
@@ -66,7 +70,7 @@ function findUser(model,jsondata){
   .catch(err =>{
     console.log(err);
     return false;
-  })
+  });
 }
 
 module.exports = router;
