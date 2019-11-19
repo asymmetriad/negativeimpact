@@ -16,8 +16,16 @@ router.post('/register',(req, res) => {
     password: req.body.password,
     email: req.body.email
   });
+if(findUser(User,{username:req.body.username})){
+  console.log("user: " + req.body.username + " already exist");
+  res.send("Username already exist.");
+}
+else{
+  console.log("new user: " + user.username + " registered");
+}
 
-  User.find({username:"jiachao"})
+
+  /*User.find({username:"jiachao"})
   .then(user =>{
     console.log(user);
     if (user.length>0){
@@ -35,7 +43,30 @@ router.post('/register',(req, res) => {
   .catch(err =>{
     res.send("error");
   })
+*/
+});
+
+//Login Handle
+router.post('/login',(req,res) =>{
 
 });
+
+function findUser(model,jsondata){
+  model.find(jsondata)
+  .then(result =>{
+    if(result.length>0){
+      console.log("data existed!");
+      return true;
+    }
+    else{
+      console.log("data doesn't existed!");
+      return false;
+    }
+  })
+  .catch(err =>{
+    console.log(err);
+    return false;
+  })
+}
 
 module.exports = router;
