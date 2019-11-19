@@ -9,6 +9,7 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname + '/views');
 
 app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
 
 let travel_options = {
     options: [
@@ -22,6 +23,10 @@ let travel_options = {
     ]};
 
 app.get('/', (req, res) => res.render('index.mustache', travel_options));
+
+app.post('/', (req,res) => {
+    console.log(req.body);
+});
 
 
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
