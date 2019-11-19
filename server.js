@@ -26,7 +26,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/form', (req,res) => {
-    console.log(req.body);
+    let user_data = {
+        distance: req.body.distance,
+        travel_type: req.body.traveltype
+    };
+    console.log(user_data);
     res.redirect('/');
 });
 
