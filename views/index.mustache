@@ -16,25 +16,26 @@
 </div>
 
 <body>
-        <form id="travel" action="/form" method="POST">
-            <div id="divtravel">
-                <label for="distance">Distance traveled: </label>
+    <form id="travel" action="/form" method="POST">
+        <div id="divtravel">
+            <label for="distance">Distance traveled: </label>
             <input type="number" form="travel" id="distance" name="distance" min="0" placeholder="Enter distance traveled here..." required><br>
             <label for="traveltype"> Type of travel used: </label>
             <select form="travel" name="traveltype" id="traveltype">{{#options}}
-                <option value="{{value}}" {{#selected}}selected{{/selected}}>
-                    {{text}}
-                </option>{{/options}}
+                    <option value="{{value}}" {{#selected}}selected{{/selected}}>
+                        {{text}}
+                    </option>
+                {{/options}}
             </select>
             <input type="submit" form="travel" id="calculate" name="calculate" value="Calculate">
             <output form="travel" id="useroutput" for="calculate">
 
             </output>
             <br>
-            </div>
-        </form>
+        </div>
+    </form>
 
-        <div id="stats"></div>
+    <div id="stats"></div>
 
 </body>
 
