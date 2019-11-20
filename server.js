@@ -30,7 +30,7 @@ app.post('/form', (req,res,next) => {
         distance: req.body.distance,
         travel_type: req.body.traveltype
     };
-    console.log(user_data);
+    console.log(req.body);
     res.send();
 });
 

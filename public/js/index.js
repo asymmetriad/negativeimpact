@@ -1,6 +1,9 @@
 function carbon_calc() {
     // Magic calculations on clicking the calculate button.
-    $("#calculate").click(() => {
+    $('#travel').submit(() => {
+        event.preventDefault();
+        $.post('/form', function(res, req) {
+            alert(res);
         let trvtype = $("#traveltype").find(":selected").val();
         let pts = 0;
         let dist = $("#distance").val();
@@ -28,6 +31,8 @@ function carbon_calc() {
             points: pts
         };
         $("#useroutput").text("You traveled " + user_travel.distance + " miles, and by " + user_travel.travel_type + " which used " + pollution + " gallons of fuel and gives you " + user_travel.points + " points.");
+
+        });
     });
 }
 
