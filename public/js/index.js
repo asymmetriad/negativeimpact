@@ -4,6 +4,7 @@ function carbon_calc() {
         let trvtype = $("#traveltype").find(":selected").val();
         let pts = 0;
         let dist = $("#distance").val();
+        let pollution = 0;
         if(trvtype == "Walk") {
             pts = (15 * dist) / 3;
         }
@@ -18,6 +19,7 @@ function carbon_calc() {
         }
         else if(trvtype == "Car") {
             pts = (-5 * dist) / 4;
+            pollution = dist * 1/20;
         }
         else if(trvtype == "Plane") {
             pts = (-10 * dist) / 3;
@@ -27,6 +29,7 @@ function carbon_calc() {
             travel_type: trvtype,
             points: pts
         };
+        $("#useroutput").text("You traveled " + user_travel.distance + " miles, and by" + user_travel.travel_type + " which used " + pollution + "gallons of fuel and gives you " + user_travel.points + ".");
     });
 }
 
