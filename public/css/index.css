@@ -8,7 +8,8 @@
     background-color: #4E2E2D;
 }
 
-#divtravel {
+#travel {
+    text-align: center;
     border: 1px;
     border-top: 1px solid #345ede;
     background-color: #dedede;
@@ -20,7 +21,12 @@
     font-family: sans-serif;
 }
 #calculate {
+    text-align: center;
     display: flex;
     font-family: sans-serif;
 
+}
+
+#stats {
+    float: right;
 }
