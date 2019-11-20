@@ -21,9 +21,6 @@ function carbon_calc() {
             pts = (-5 * dist) / 4;
             pollution = dist * 1/20;
         }
-        else if(trvtype == "Plane") {
-            pts = (-10 * dist) / 3;
-        }
         let user_travel = {
             distance: dist,
             travel_type: trvtype,
