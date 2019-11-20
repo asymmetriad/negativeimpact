@@ -25,13 +25,13 @@ app.get('/', (req, res) => {
     res.render('index.mustache', travel_options);
 });
 
-app.post('/form', (req,res) => {
+app.post('/form', (req,res,next) => {
     let user_data = {
         distance: req.body.distance,
         travel_type: req.body.traveltype
     };
     console.log(user_data);
-    res.redirect('/');
+    res.send();
 });
 
 
