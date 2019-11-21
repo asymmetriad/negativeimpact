@@ -15,20 +15,19 @@ router.get('/register',(req,res) => {
 
 //Register Handle
 router.post('/register',(req, res) => {
-  let newUser = new User({
+    let newUser = new User({
     username: req.body.username,
     password: req.body.password,
     email: req.body.email
   });
+  console.log("got it");
 if(findUser(User,{username:req.body.username})){
-  console.log("user: " + req.body.username + " already exist");
-  res.send("Username already exist.");
+    console.log("user: " + req.body.username + " already exist");
+    res.send("Username already exist.");
 }
 else{
-  console.log("new user: " + user.username + " registered");
+    console.log("new user: " + user.username + " registered");
 }
-
-
   /*User.find({username:"jiachao"})
   .then(user =>{
     console.log(user);
