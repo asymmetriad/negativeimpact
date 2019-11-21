@@ -115,10 +115,12 @@ function checkForm() {
       password:password.value,
       email:email.value
     }));
+    console.log("sent");
 }
 
 
 document.getElementById("submit").addEventListener("click", function(event) {
+  console.log("aaaaaaaaaa");
    checkForm();
 
    // Prevent default form action. DO NOT REMOVE THIS LINE
