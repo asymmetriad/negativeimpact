@@ -3,18 +3,25 @@
     color: white;
     width: auto;
     height: auto;
-    margin: auto;
+    margin: 0 auto;
     font-size: 30px;
     background-color: #4E2E2D;
 }
 
+body {
+    height: 750px;
+    margin: 2px;
+    padding: 2px;
+}
+
 #travel {
     text-align: center;
-    border: 1px;
-    border-top: 1px solid #345ede;
+    display: subgrid;
+    margin: 0 auto;
+    width: 350px;
+    height: 100%;
+    border: 1px solid rebeccapurple;
     background-color: #dedede;
-    margin-right: 10px;
-    max-width: 40%;
 }
 #traveltype {
     display: inline-block;
@@ -22,11 +29,8 @@
 }
 #calculate {
     text-align: center;
-    display: flex;
+    display: inherit;
     font-family: sans-serif;
+    margin: 0 auto;
 
-}
-
-#stats {
-    float: right;
 }
