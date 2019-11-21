@@ -1,37 +1,32 @@
 const express = require('express');
 const mustache = require('mustache-express');
+const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
 
+app.use("/public", express.static('./public/'));
+app.use(bodyParser.json());
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 app.set('views', __dirname + '/views');
 
-app.use(express.static('public'));
-app.use(express.urlencoded({ extended: true }));
-
-let travel_options = {
-    options: [
-        {value: 'Walk', text: 'Walk', selected: true},
-        {value: 'Bicycle', text: 'Bicycle'},
-        {value: 'Train', text: 'Train'},
-        {value: 'Bus', text: 'Bus'},
-        {value: 'Car', text: 'Car'},
-
-    ]};
-
-app.get('/', (req, res) => {
-    res.render('index.mustache', travel_options);
-});
-
-app.post('/form', (req,res,next) => {
-    let user_data = {
-        distance: req.body.distance,
-        travel_type: req.body.traveltype
-    };
-    console.log(req.body);
-    res.send();
-});
-
-
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
+
+//Router
+app.use('/',require('./routes/index'));
+app.use('/user',require('./routes/user'));
+
+//mongodb model
+let User = require('./model/user');
+
+app.get('/userdata', function(req,res){
+  let user=new User({
+    username:"username",
+      password:"password",
+      distance_traveled: 3000,
+      travel_type: "Car"
+  });
+  user.save(function(err,user){
+    res.send("Username: " + user.username + "\nPassword: " + user.password + user.distance_traveled + user.travel_type);
+  });
+});
