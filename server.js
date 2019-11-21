@@ -1,5 +1,4 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const mustache = require('mustache-express');
 const app = express();
 const port = 3000;
