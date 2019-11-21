@@ -33,7 +33,7 @@ function carbon_calc() {
             travel_type: trvtype,
             points: pts
         };
-        $("#useroutput").append("You traveled " + user_travel.distance + " miles, and by " + user_travel.travel_type + " which used " + pollution + " gallons of fuel and gives you " + user_travel.points + " points. \n" + "You may want to consider these alternative methods of travel: \n" + alts);
+        $("#useroutput").text("You traveled " + user_travel.distance + " miles, and by " + user_travel.travel_type + " which used " + pollution + " gallons of fuel and gives you " + user_travel.points + " points. \n" + "You may want to consider these alternative methods of travel: \n" + alts);
         $.post('/form',
                user_travel,
                function(res, req) {
