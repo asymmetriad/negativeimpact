@@ -103,6 +103,19 @@ function checkForm() {
             return;
     }
     e.style.display = "none";
+   
+   const xhr = new XMLHttpRequest();
+    xhr.onload=function(){
+      console.log(this.responseText);
+    }
+    xhr.open('POST',"register");
+    xhr.setRequestHeader("Content-type","application/json;charset=UTF-8");
+    xhr.send(JSON.stringify({
+      username:fullName.value,
+      password:password.value,
+      email:email.value
+    }));
+    console.log("sent");
 
 
 }
