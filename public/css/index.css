@@ -20,6 +20,7 @@ body {
 }
 #calculate {
     text-align: center;
+    display: flex;
     font-family: sans-serif;
     margin: 0 auto;
 
