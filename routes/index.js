@@ -1,18 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-let travel_options = {
-    options: [
-        {value: 'Walk', text: 'Walk', selected: true},
-        {value: 'Bicycle', text: 'Bicycle'},
-        {value: 'Train', text: 'Train'},
-        {value: 'Bus', text: 'Bus'},
-        {value: 'Car', text: 'Car'},
-
-    ]};
-
 router.get('/',(req,res) => {
-    res.render('index.mustache', travel_options);
+    res.render('index.mustache');
 });
 
 router.post('/form', (req,res,next) => {
