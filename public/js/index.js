@@ -1,7 +1,13 @@
-function carbon_calc() {
-    // Magic calculations on clicking the calculate button.
+function enter_key(keydown) {
+    if(event.key === 'Enter' && keydown.id === 'start') {
+        $('label[for=dest]').show();
+        $('#dest').show();
+    }
+}
+function travel_submit() {
     $('#travel').submit(() => {
         event.preventDefault();
+
         $.post('/form',
                function(res, req) {
         });
@@ -9,5 +15,5 @@ function carbon_calc() {
 }
 
 $(() => {
-    carbon_calc();
+    travel_submit();
 });
