@@ -25,3 +25,11 @@ body {
     margin: 0 auto;
 
 }
+
+#dest {
+    display: none;
+}
+
+label[for=dest] {
+    display: none;
+}
