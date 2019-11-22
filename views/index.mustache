@@ -12,12 +12,16 @@
 </head>
 
 <body>
-    
     <form id="travel" action="/form" method="POST">
-        <label for="start">Start:</label>
-        <input type="text" form="travel" id="start">
-        <label for="dest">Destination:</label>
-        <input type="text" form="travel" id="dest">
+        <label for="travel">Trip</label>
+        <p>
+            <label for="start">Start:</label>
+            <input type="text" form="travel" id="start" onkeydown="enter_key(this)">
+        </p>
+        <p>
+            <label for="dest">Destination:</label>
+            <input type="text" form="travel" id="dest">
+        </p>
         <input type="submit" form="travel" id="calculate" name="calculate" value="Calculate">
         <output form="travel" id="useroutput" for="calculate">
         </output>
