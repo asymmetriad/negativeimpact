@@ -1,17 +1,8 @@
-#h2title {
-    text-align: center;
-    color: white;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    font-size: 30px;
-    background-color: #4E2E2D;
-}
-
 body {
-    height: 750px;
-    margin: 2px;
+    height: 0 auto;
+    margin: 200px;
     padding: 2px;
+    background-color: #FFFAFA;
 }
 
 #travel {
@@ -20,12 +11,13 @@ body {
     margin: 0 auto;
     width: 350px;
     height: 100%;
-    border: 1px solid rebeccapurple;
-    background-color: #dedede;
+    border: 1px solid gray;
+    background-color: #FFFAFA;
 }
 #traveltype {
     display: inline-block;
     font-family: sans-serif;
+    margin: 0 auto;
 }
 #calculate {
     text-align: center;
