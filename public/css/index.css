@@ -13,6 +13,7 @@ body {
     height: 100%;
     border: 1px solid gray;
     background-color: #FFFAFA;
+    font-family: serif;
 }
 #traveltype {
     display: inline-block;
