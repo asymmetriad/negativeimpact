@@ -5,6 +5,8 @@ const app = express();
 const port = 3000;
 
 app.use("/public", express.static('./public/'));
+// Loads jQuery as a static file, since it runs on the frontend.
+app.use("/node_modules/jquery/dist/", express.static('./node_modules/jquery/dist/'));
 app.use(bodyParser.json());
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
