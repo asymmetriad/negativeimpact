@@ -7,7 +7,7 @@ body {
 #travel {
     text-align: center;
     margin: 0 auto;
-    width: 350px;
+    width: 450px;
     height: 100%;
     border: 1px solid gray;
     background-color: #FFFAFA;
@@ -20,7 +20,7 @@ body {
 }
 #calculate {
     text-align: center;
-    display: flex;
+    display: none;
     font-family: sans-serif;
     margin: 0 auto;
 
@@ -34,6 +34,30 @@ label[for=dest] {
     display: none;
 }
 
+label[for=startlat] {
+    display: none;
+}
+label[for=startlong] {
+    display: none;
+}
+#startlat {
+    display: none;
+}
+#startlong {
+    display: none;
+}
+label[for=endlat] {
+    display: none;
+}
+label[for=endlong] {
+    display: none;
+}
+#endlat {
+    display: none;
+}
+#endlong {
+    display: none;
+}
 #direct_trip[type=checkbox] {
     width: 20px;
     height: 20px;
