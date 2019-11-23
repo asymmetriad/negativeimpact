@@ -38,22 +38,22 @@ function travel_submit() {
         // The earth's mean radius in miles.
         let earth_radius = 3958.7613;
         // User input.
-        let start_lat = 81.4;
-        let start_long = 43.4;
-        let end_lat = 67.4;
-            let end_long = 23.4;
+        let start_lat = -34;
+        let start_long = 45.7;
+        let end_lat = 22.2;
+        let end_long = 56.7;
 
         let sinlat = to_radians(end_lat - start_lat);
         let sinlong = to_radians(end_long - start_long);
         let coslat1 = to_radians(start_lat);
         let coslat2 = to_radians(end_lat);
         // The square of half the chord length between the two points.
-        let sqr_half_chord = Math.sin(sinlat / 2) * Math.sin(sinlat / 2) +
-            Math.cos(coslat1) * Math.cos(coslat2) * Math.sin(sinlong / 2) * Math.sin(sinlong / 2);
+            let sqr_half_chord = Math.pow(Math.sin(sinlat / 2), 2) +
+            Math.cos(coslat1) * Math.cos(coslat2) * Math.pow(Math.sin(sinlong / 2), 2);
             let angular_dist = 2 *
                 Math.atan2(Math.sqrt(sqr_half_chord),
                            Math.sqrt(1-sqr_half_chord));
-        let distance = earth_radius * angular_dist;
+            let distance = earth_radius * angular_dist;
             alert(distance);
         }
 
