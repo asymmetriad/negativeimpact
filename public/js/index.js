@@ -3,6 +3,21 @@ function enter_key(keydown) {
         $('label[for=dest]').show();
         $('#dest').show();
     }
+    else if (event.key === 'Enter' && keydown.id === 'dest' || keydown.id === 'endlong') {
+        $('#calculate').show();
+    }
+    else if (event.key === 'Enter' && keydown.id === 'startlat') {
+        $('label[for=startlong]').show();
+        $('#startlong').show();
+    }
+    else if (event.key === 'Enter' && keydown.id === 'startlong') {
+        $('label[for=endlat]').show();
+        $('#endlat').show();
+    }
+    else if (event.key === 'Enter' && keydown.id === 'endlat') {
+        $('label[for=endlong]').show();
+        $('#endlong').show();
+    }
 }
 
 function direct_trip_chk() {
@@ -14,9 +29,22 @@ function direct_trip_chk() {
             $('label[for=start]').hide();
             $('#start').hide();
 
+            $('label[for=startlat]').show();
+            $('#startlat').show();
+
         } else {
             $('label[for=start]').show();
             $('#start').show();
+
+            $('label[for=startlat]').hide();
+            $('#startlat').hide();
+            $('label[for=startlong]').hide();
+            $('#startlong').hide();
+
+            $('label[for=endlat]').hide();
+            $('#endlat').hide();
+            $('label[for=endlong]').hide();
+            $('#endlong').hide();
         }
     });
 }
@@ -30,10 +58,6 @@ function travel_submit() {
         // Prevent default page behavior, like reloading the page.
         event.preventDefault();
         if ($('#direct_trip[type=checkbox]').prop('checked')) {
-            $('label[for=dest]').hide();
-            $('#dest').hide();
-            $('label[for=start]').hide();
-            $('#start').hide();
             // Haversine formula.
             // The earth's mean radius in miles.
             let earth_radius = 3958.7613;
