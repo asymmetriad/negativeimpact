@@ -59,8 +59,8 @@ label[for=endlong] {
     display: none;
 }
 #direct_trip[type=checkbox] {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 label[for=direct_trip]:hover {
      cursor:pointer;
