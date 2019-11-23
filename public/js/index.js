@@ -62,10 +62,10 @@ function travel_submit() {
             // The earth's mean radius in miles.
             let earth_radius = 3958.7613;
             // User input.
-            let start_lat = -34;
-            let start_long = 45.7;
-            let end_lat = 22.2;
-            let end_long = 56.7;
+            let start_lat = $('#startlat').val();
+            let start_long = $('#startlong').val();
+            let end_lat = $('#endlat').val();
+            let end_long = $('#endlong').val();
 
             let sinlat = to_radians(end_lat - start_lat);
             let sinlong = to_radians(end_long - start_long);
