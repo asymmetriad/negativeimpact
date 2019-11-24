@@ -3,7 +3,7 @@ function enter_key(keydown) {
         $('label[for=dest]').show();
         $('#dest').show();
     }
-    else if (event.key === 'Enter' && keydown.id === 'dest' || keydown.id === 'endlong') {
+    else if (event.key === 'Enter' && keydown.id === 'dest') {
         $('#calculate').show();
     }
     else if (event.key === 'Enter' && keydown.id === 'startlat') {
@@ -31,6 +31,14 @@ function direct_trip_chk() {
 
             $('label[for=startlat]').show();
             $('#startlat').show();
+            $('label[for=startlong]').show();
+            $('#startlong').show();
+            $('label[for=endlat]').show();
+            $('#endlat').show();
+            $('label[for=endlong]').show();
+            $('#endlong').show();
+
+            $('#calculate').show();
 
         } else {
             $('label[for=start]').show();
@@ -45,6 +53,8 @@ function direct_trip_chk() {
             $('#endlat').hide();
             $('label[for=endlong]').hide();
             $('#endlong').hide();
+
+            $('#calculate').hide();
         }
     });
 }
