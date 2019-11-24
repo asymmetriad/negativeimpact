@@ -26,6 +26,14 @@ function direct_trip_chk() {
             $('label[for=endlong]').show();
             $('#endlong').show();
 
+            $('#startlat').prop('required',true);
+            $('#startlong').prop('required',true);
+            $('#endlat').prop('required',true);
+            $('#endlong').prop('required',true);
+
+            $('#dest').prop('required',false);
+            $('#start').prop('required',false);
+
             $('#calculate').show();
 
         } else {
@@ -43,6 +51,13 @@ function direct_trip_chk() {
             $('#endlong').hide();
 
             $('#calculate').hide();
+            $('#startlat').prop('required',false);
+            $('#startlong').prop('required',false);
+            $('#endlat').prop('required',false);
+            $('#endlong').prop('required',false);
+
+            $('#dest').prop('required',true);
+            $('#start').prop('required',true);
         }
     });
 }
@@ -77,9 +92,9 @@ function travel_submit() {
                     Math.sqrt(1 - sqr_half_chord));
             let distance = earth_radius * angular_dist;
 
-            $('#useroutput').empty().append(distance);
+            $('#useroutput').empty().append(distance).append('<br> <a href="https://en.reset.org/act/reduce-your-ecological-footprint-0">Want to check out other ways to reduce your impact on the globe?</a>');
         }
-        $('#useroutput').append('<br> <a href="https://en.reset.org/act/reduce-your-ecological-footprint-0">Want to check out other ways to reduce your impact on the globe?</a>');
+
         $.post('/form',
             function(res, req) {});
     });
