@@ -76,7 +76,8 @@ function travel_submit() {
                 Math.atan2(Math.sqrt(sqr_half_chord),
                     Math.sqrt(1 - sqr_half_chord));
             let distance = earth_radius * angular_dist;
-            alert(distance);
+
+            $('#useroutput').text(distance);
         }
 
         $.post('/form',
