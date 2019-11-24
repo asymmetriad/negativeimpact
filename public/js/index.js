@@ -6,18 +6,6 @@ function enter_key(keydown) {
     else if (event.key === 'Enter' && keydown.id === 'dest') {
         $('#calculate').show();
     }
-    else if (event.key === 'Enter' && keydown.id === 'startlat') {
-        $('label[for=startlong]').show();
-        $('#startlong').show();
-    }
-    else if (event.key === 'Enter' && keydown.id === 'startlong') {
-        $('label[for=endlat]').show();
-        $('#endlat').show();
-    }
-    else if (event.key === 'Enter' && keydown.id === 'endlat') {
-        $('label[for=endlong]').show();
-        $('#endlong').show();
-    }
 }
 
 function direct_trip_chk() {
