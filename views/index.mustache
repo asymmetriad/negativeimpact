@@ -19,18 +19,18 @@
             <input type="text" form="travel" id="start" onkeydown="enter_key(this)" required>
 
             <label for="startlat">Latitude of starting point:</label>
-            <input type="text" form="travel" id="startlat">
+            <input type="number" form="travel" id="startlat" min="-90" max="90">
             <label for="startlong">Longitude of starting point:</label>
-            <input type="text" form="travel" id="startlong">
+            <input type="number" form="travel" id="startlong" min="-90" max="90">
         </p>
         <p>
             <label for="dest">Destination:</label>
             <input type="text" form="travel" id="dest" onkeydown="enter_key(this)" required>
 
             <label for="endlat">Latitude of end point:</label>
-            <input type="text" form="travel" id="endlat">
+            <input type="number" form="travel" id="endlat" min="-180" max="180">
             <label for="endlong">Longitude of end point:</label>
-            <input type="text" form="travel" id="endlong">
+            <input type="number" form="travel" id="endlong" min="-180" max="180">
         </p>
         <label for="direct_trip">Toggle direct trip mode:</label>
         <input type="checkbox" id="direct_trip">
