@@ -77,9 +77,9 @@ function travel_submit() {
                     Math.sqrt(1 - sqr_half_chord));
             let distance = earth_radius * angular_dist;
 
-            $('#useroutput').text(distance);
+            $('#useroutput').empty().append(distance);
         }
-
+        $('#useroutput').append('<br> <a href="https://en.reset.org/act/reduce-your-ecological-footprint-0">Want to check out other ways to reduce your impact on the globe?</a>');
         $.post('/form',
             function(res, req) {});
     });
