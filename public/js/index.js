@@ -80,13 +80,14 @@ function travel_submit() {
             let end_lat = $('#endlat').val();
             let end_long = $('#endlong').val();
 
-            let sinlat = to_radians(end_lat - start_lat);
-            let sinlong = to_radians(end_long - start_long);
-            let coslat1 = to_radians(start_lat);
-            let coslat2 = to_radians(end_lat);
+            let diff_rad_lat = to_radians(end_lat - start_lat);
+            let diff_rad_long = to_radians(end_long - start_long);
+            let start_rad_lat = to_radians(start_lat);
+            let end_rad_lat = to_radians(end_lat);
             // The square of half the chord length between the two points.
-            let sqr_half_chord = Math.pow(Math.sin(sinlat / 2), 2) +
-                Math.cos(coslat1) * Math.cos(coslat2) * Math.pow(Math.sin(sinlong / 2), 2);
+            let sqr_half_chord = Math.pow(Math.sin(diff_rad_lat / 2), 2) +
+                Math.cos(start_rad_lat) * Math.cos(end_rad_lat) *
+                Math.pow(Math.sin(diff_rad_long / 2), 2);
             let angular_dist = 2 *
                 Math.atan2(Math.sqrt(sqr_half_chord),
                     Math.sqrt(1 - sqr_half_chord));
