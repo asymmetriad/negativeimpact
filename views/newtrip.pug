@@ -1,0 +1,31 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' type='text/css' href='../public/css/index.css')
+  title Negative Impact Trip Calculator
+  script(src='../node_modules/jquery/dist/jquery.min.js')
+  script(src='../public/js/index.js' async='' defer='')
+form#travel(action='/form' method='POST')
+  label(for='travel') Trip
+  p
+    label(for='start') Start:
+    input#start(type='text' form='travel' onkeydown='enter_key(this)' required='')
+    label(for='startlat') Latitude of starting point:
+    input#startlat(type='number' form='travel' min='-90' max='90')
+    label(for='startlong') Longitude of starting point:
+    input#startlong(type='number' form='travel' min='-90' max='90')
+  p
+    label(for='dest') Destination:
+    input#dest(type='text' form='travel' onkeydown='enter_key(this)' required='')
+    label(for='endlat') Latitude of end point:
+    input#endlat(type='number' form='travel' min='-180' max='180')
+    label(for='endlong') Longitude of end point:
+    input#endlong(type='number' form='travel' min='-180' max='180')
+  label(for='direct_trip') Toggle direct trip mode:
+  input#direct_trip(type='checkbox')
+  br
+  input#calculate(type='submit' form='travel' name='calculate' value='Calculate')
+  p
+    output#useroutput(form='travel' for='calculate')

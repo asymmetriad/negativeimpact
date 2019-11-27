@@ -1,0 +1,21 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  title User Registration
+  link(href='../public/css/login_style.css' rel='stylesheet')
+  script(src='../public/js/register.js' defer='')
+form.register
+  #r
+    #registration
+      h1 Negative Impact
+      label(for='fullName') Full Name
+      input#fullName(type='text' name='fullName')
+      label(for='email') Email
+      input#email(type='email' name='email')
+      label(for='password') Password
+      input#password(type='password' name='password')
+      label(for='passwordConfirm') Confirm Password
+      input#passwordConfirm(type='password' name='passwordConfirm')
+      input#submit(type='submit' value='Register')
+    #formErrors
+      ul#u
