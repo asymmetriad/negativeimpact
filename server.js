@@ -6,9 +6,11 @@ var session = require('express-session');
 var passport = require('passport');
 var Auth0Strategy = require('passport-auth0');
 var userInViews = require('./lib/middleware/userInViews');
-var authRouter = require('./routes/auth');
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+
+
+require('./db');
+
+require('express-async-errors');
 // Load environment variables from .env
 var dotenv = require('dotenv');
 const app = express();
@@ -22,11 +24,16 @@ app.use(express.static('public'))
 // Loads jQuery as a static file, since it runs on the frontend.
 app.use("/node_modules/jquery/dist/", express.static('./node_modules/jquery/dist/'));
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.engine('mustache', mustache());
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');
 
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
+
+var authRouter = require('./routes/auth');
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
 
 // config express-session
 var sess = {
@@ -56,7 +63,7 @@ var strategy = new Auth0Strategy(
     clientID: process.env.AUTH0_CLIENT_ID,
     clientSecret: process.env.AUTH0_CLIENT_SECRET,
     callbackURL:
-      process.env.AUTH0_CALLBACK_URL || 'http://localhost:3000/callback'
+      process.env.AUTH0_CALLBACK_URL || 'http://9b903281.ngrok.io/callback'
   },
   function (accessToken, refreshToken, extraParams, profile, done) {
     // accessToken is the token to call Auth0 API (not needed in the most cases)
@@ -86,3 +93,4 @@ passport.deserializeUser(function(user, done) {
 
 //mongodb model
 let User = require('./model/user');
+let Trip = require('./model/trip')

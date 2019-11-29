@@ -4,12 +4,16 @@ const envreq = require('dotenv').config();
 
 const Schema = db.Schema;
 const tripSchema = new Schema({
-    username: {type:String},
+    user: {type:db.Schema.Types.ObjectId,
+      ref: 'User'},
+    start_addr: {type:String},
+    end_addr: {type:String},
     distance: {type:Number},
     method: {type:String},
+    pollution: {type:Number}
+}, {
+  timestamps:true
 });
-
-var Trip = mongoose.model('Trip',tripSchema);
 
 // returns here session object for further use, to be called only once when application first loads
 function new_here_session() {
@@ -38,4 +42,4 @@ function get_all_routes(platform) {
 
 }
 
-module.exports = db.model('User',tripSchema);
+module.exports.trip = db.model('Trip',tripSchema);

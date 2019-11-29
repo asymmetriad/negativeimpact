@@ -1,0 +1,1000 @@
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.2,"method":"carpool","pollution":20.228,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.14,"method":"car","pollution":7.014,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.86,"method":"carpool","pollution":19.737,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.12,"method":"car","pollution":12.137,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.99,"method":"car","pollution":8.058,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.38,"method":"car","pollution":4.537,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.86,"method":"public transit","pollution":17.172,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.82,"method":"carpool","pollution":14.958,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.32,"method":"car","pollution":16.974,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.26,"method":"car","pollution":20.616,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.81,"method":"public transit","pollution":15.321,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.06,"method":"car","pollution":10.282,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.35,"method":"car","pollution":7.091,"created_at":"2019-11-28 22:33:00","updated_at":"2019-11-28 22:33:00"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.32,"method":"public transit","pollution":1.583,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.5,"method":"car","pollution":19.971,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.31,"method":"car","pollution":10.374,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.26,"method":"car","pollution":8.523,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.12,"method":"car","pollution":14.335,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.9,"method":"car","pollution":9.491,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.32,"method":"car","pollution":1.949,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.35,"method":"car","pollution":3.06,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.17,"method":"car","pollution":14.354,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.72,"method":"car","pollution":9.058,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.93,"method":"car","pollution":12.8,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.76,"method":"bike","pollution":9.44,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.07,"method":"car","pollution":18.348,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.14,"method":"public transit","pollution":9.579,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.49,"method":"bike","pollution":2.745,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.18,"method":"carpool","pollution":1.532,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.16,"method":"public transit","pollution":10.686,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.81,"method":"carpool","pollution":18.253,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.51,"method":"car","pollution":4.951,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.44,"method":"car","pollution":5.658,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.89,"method":"car","pollution":14.251,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.64,"method":"car","pollution":20.023,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.98,"method":"public transit","pollution":19.781,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.4,"method":"car","pollution":7.109,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.24,"method":"walk","pollution":0.454,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.58,"method":"bike","pollution":6.809,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.78,"method":"car","pollution":16.776,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.92,"method":"walk","pollution":20.858,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.45,"method":"carpool","pollution":1.631,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.33,"method":"carpool","pollution":12.214,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.35,"method":"carpool","pollution":14.42,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.37,"method":"walk","pollution":3.434,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.87,"method":"carpool","pollution":9.48,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.77,"method":"bike","pollution":16.772,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.58,"method":"public transit","pollution":21.466,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.57,"method":"car","pollution":13.401,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.47,"method":"car","pollution":5.669,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.38,"method":"carpool","pollution":1.239,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.98,"method":"carpool","pollution":20.88,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.67,"method":"car","pollution":0.612,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.84,"method":"public transit","pollution":16.065,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.5,"method":"walk","pollution":17.406,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.46,"method":"car","pollution":21.789,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.93,"method":"walk","pollution":10.968,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.42,"method":"carpool","pollution":4.185,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.03,"method":"car","pollution":4.042,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.27,"method":"carpool","pollution":4.13,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.97,"method":"carpool","pollution":3.287,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.58,"method":"bike","pollution":19.634,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.24,"method":"car","pollution":11.081,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.25,"method":"car","pollution":8.153,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.11,"method":"car","pollution":12.133,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.32,"method":"carpool","pollution":15.141,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.24,"method":"car","pollution":7.05,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.74,"method":"car","pollution":21.891,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.95,"method":"car","pollution":19.403,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.34,"method":"car","pollution":16.615,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.79,"method":"car","pollution":5.053,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.93,"method":"bike","pollution":10.968,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.18,"method":"carpool","pollution":2.631,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.55,"method":"car","pollution":2.767,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.73,"method":"carpool","pollution":21.155,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.09,"method":"car","pollution":11.393,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.04,"method":"public transit","pollution":20.169,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.02,"method":"public transit","pollution":16.131,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.96,"method":"walk","pollution":20.14,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.96,"method":"car","pollution":21.606,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.12,"method":"public transit","pollution":7.373,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.88,"method":"car","pollution":7.651,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.42,"method":"walk","pollution":12.247,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.88,"method":"car","pollution":18.278,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.34,"method":"carpool","pollution":4.888,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.99,"method":"car","pollution":3.294,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.94,"method":"car","pollution":21.232,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.75,"method":"public transit","pollution":14.2,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.57,"method":"car","pollution":14.5,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.36,"method":"carpool","pollution":9.293,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.78,"method":"bike","pollution":17.142,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.92,"method":"bike","pollution":5.467,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.11,"method":"public transit","pollution":19.462,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.24,"method":"carpool","pollution":17.311,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.76,"method":"car","pollution":9.806,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.15,"method":"carpool","pollution":9.583,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.24,"method":"car","pollution":14.379,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.4,"method":"car","pollution":15.904,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.26,"method":"walk","pollution":12.921,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.46,"method":"car","pollution":19.957,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.18,"method":"walk","pollution":5.563,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.76,"method":"car","pollution":20.066,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.06,"method":"car","pollution":17.978,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.32,"method":"walk","pollution":11.843,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.98,"method":"public transit","pollution":8.054,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.65,"method":"car","pollution":16.362,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.15,"method":"carpool","pollution":8.483,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.21,"method":"car","pollution":7.406,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.92,"method":"car","pollution":19.392,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.12,"method":"car","pollution":1.51,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.04,"method":"carpool","pollution":19.803,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.94,"method":"walk","pollution":13.903,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.32,"method":"bike","pollution":4.515,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.54,"method":"carpool","pollution":2.763,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.93,"method":"carpool","pollution":1.44,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.45,"method":"carpool","pollution":19.586,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.13,"method":"carpool","pollution":1.147,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.14,"method":"car","pollution":12.51,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.21,"method":"carpool","pollution":11.803,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.87,"method":"car","pollution":10.946,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.31,"method":"carpool","pollution":16.237,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.8,"method":"car","pollution":9.454,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.56,"method":"car","pollution":18.527,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.94,"method":"car","pollution":12.071,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.1,"method":"public transit","pollution":1.869,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.58,"method":"bike","pollution":20.733,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.38,"method":"carpool","pollution":4.903,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.77,"method":"public transit","pollution":14.573,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.63,"method":"car","pollution":6.094,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.03,"method":"car","pollution":6.973,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.64,"method":"carpool","pollution":5.365,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.71,"method":"public transit","pollution":5.024,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.64,"method":"public transit","pollution":14.159,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.35,"method":"public transit","pollution":4.526,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.5,"method":"car","pollution":19.238,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.82,"method":"bike","pollution":18.623,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.11,"method":"carpool","pollution":8.469,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.7,"method":"car","pollution":4.287,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.96,"method":"carpool","pollution":21.606,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.33,"method":"car","pollution":18.077,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.63,"method":"car","pollution":16.354,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.56,"method":"car","pollution":17.795,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.49,"method":"walk","pollution":3.844,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.29,"method":"carpool","pollution":11.832,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.37,"method":"public transit","pollution":2.701,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.42,"method":"car","pollution":21.041,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.05,"method":"car","pollution":20.173,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.78,"method":"carpool","pollution":21.173,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.09,"method":"carpool","pollution":20.554,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.89,"method":"car","pollution":12.785,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.2,"method":"carpool","pollution":13.265,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.43,"method":"carpool","pollution":7.12,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.64,"method":"walk","pollution":7.93,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.12,"method":"public transit","pollution":19.466,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.49,"method":"car","pollution":19.968,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.8,"method":"car","pollution":3.591,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.85,"method":"car","pollution":12.404,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.21,"method":"carpool","pollution":17.666,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.93,"method":"car","pollution":1.807,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.04,"method":"carpool","pollution":7.71,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.84,"method":"car","pollution":2.506,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.63,"method":"car","pollution":21.118,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.66,"method":"car","pollution":6.105,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.03,"method":"carpool","pollution":18.7,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.86,"method":"carpool","pollution":19.37,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.75,"method":"car","pollution":16.032,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.14,"method":"car","pollution":2.25,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.87,"method":"car","pollution":11.312,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.62,"method":"carpool","pollution":15.618,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.06,"method":"car","pollution":11.382,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.52,"method":"carpool","pollution":3.489,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.1,"method":"carpool","pollution":1.502,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.11,"method":"walk","pollution":16.897,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.84,"method":"car","pollution":13.866,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.03,"method":"car","pollution":0.377,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.59,"method":"public transit","pollution":11.942,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.95,"method":"car","pollution":9.876,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.33,"method":"carpool","pollution":1.22,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.27,"method":"carpool","pollution":18.421,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.32,"method":"carpool","pollution":5.98,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.97,"method":"car","pollution":15.013,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.69,"method":"car","pollution":5.75,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.25,"method":"car","pollution":20.246,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.62,"method":"carpool","pollution":2.426,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.05,"method":"car","pollution":19.44,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.15,"method":"carpool","pollution":14.346,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.12,"method":"car","pollution":7.739,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.78,"method":"public transit","pollution":5.782,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.14,"method":"carpool","pollution":4.082,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.56,"method":"car","pollution":2.037,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.8,"method":"car","pollution":1.026,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.62,"method":"bike","pollution":14.152,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.17,"method":"car","pollution":20.583,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.12,"method":"car","pollution":21.298,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.65,"method":"car","pollution":18.927,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.22,"method":"car","pollution":9.608,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.87,"method":"car","pollution":13.877,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.26,"method":"car","pollution":4.126,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.0,"method":"car","pollution":16.124,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.52,"method":"car","pollution":18.513,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.49,"method":"carpool","pollution":6.776,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.06,"method":"bike","pollution":5.519,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.38,"method":"car","pollution":12.598,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.24,"method":"public transit","pollution":14.746,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.97,"method":"carpool","pollution":16.845,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.07,"method":"car","pollution":20.913,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.48,"method":"car","pollution":2.741,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.53,"method":"carpool","pollution":0.561,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.84,"method":"public transit","pollution":18.996,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.31,"method":"carpool","pollution":12.939,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.12,"method":"car","pollution":1.143,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.12,"method":"car","pollution":11.404,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.29,"method":"carpool","pollution":6.702,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.37,"method":"carpool","pollution":14.06,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.41,"method":"carpool","pollution":11.144,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.13,"method":"car","pollution":10.675,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.62,"method":"car","pollution":13.053,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.28,"method":"carpool","pollution":11.829,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.7,"method":"bike","pollution":6.486,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.91,"method":"car","pollution":6.929,"created_at":"2019-11-28 22:33:01","updated_at":"2019-11-28 22:33:01"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.05,"method":"walk","pollution":5.881,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.88,"method":"car","pollution":19.744,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.38,"method":"public transit","pollution":3.437,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.37,"method":"car","pollution":1.601,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.52,"method":"car","pollution":20.711,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.37,"method":"carpool","pollution":21.756,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.08,"method":"car","pollution":16.153,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.91,"method":"walk","pollution":21.221,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.63,"method":"carpool","pollution":15.988,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.86,"method":"bike","pollution":8.377,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.84,"method":"carpool","pollution":17.164,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.6,"method":"car","pollution":12.679,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.77,"method":"car","pollution":10.909,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.19,"method":"car","pollution":21.69,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.94,"method":"carpool","pollution":14.636,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.21,"method":"public transit","pollution":16.2,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.15,"method":"car","pollution":3.719,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.43,"method":"carpool","pollution":7.853,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.66,"method":"car","pollution":7.937,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.77,"method":"carpool","pollution":20.437,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.28,"method":"walk","pollution":12.195,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.89,"method":"public transit","pollution":10.587,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.53,"method":"public transit","pollution":7.523,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.7,"method":"car","pollution":17.479,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.83,"method":"bike","pollution":19.726,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.16,"method":"bike","pollution":12.884,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.77,"method":"walk","pollution":0.649,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.42,"method":"carpool","pollution":14.812,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.53,"method":"walk","pollution":17.784,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.37,"method":"car","pollution":21.389,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.71,"method":"walk","pollution":10.154,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.07,"method":"car","pollution":15.783,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.8,"method":"carpool","pollution":5.79,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.57,"method":"car","pollution":10.469,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.67,"method":"walk","pollution":8.307,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.27,"method":"car","pollution":12.924,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.87,"method":"car","pollution":20.84,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.21,"method":"car","pollution":9.971,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.4,"method":"walk","pollution":2.712,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.84,"method":"carpool","pollution":2.506,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.33,"method":"public transit","pollution":17.344,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.09,"method":"public transit","pollution":9.194,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.38,"method":"car","pollution":21.393,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.32,"method":"carpool","pollution":14.409,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.21,"method":"carpool","pollution":13.635,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.56,"method":"car","pollution":7.168,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.05,"method":"car","pollution":10.645,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.03,"method":"car","pollution":8.439,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.59,"method":"bike","pollution":18.538,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.45,"method":"car","pollution":16.288,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.43,"method":"car","pollution":3.822,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.29,"method":"car","pollution":10.0,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.44,"method":"bike","pollution":1.627,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.55,"method":"carpool","pollution":3.5,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.06,"method":"car","pollution":4.786,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.45,"method":"car","pollution":8.96,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.15,"method":"public transit","pollution":9.216,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.24,"method":"car","pollution":2.287,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.74,"method":"bike","pollution":12.364,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.63,"method":"public transit","pollution":13.423,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.32,"method":"carpool","pollution":12.21,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.34,"method":"public transit","pollution":4.888,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.58,"method":"car","pollution":10.107,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.47,"method":"carpool","pollution":18.861,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.4,"method":"carpool","pollution":4.91,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.22,"method":"carpool","pollution":17.303,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.21,"method":"car","pollution":12.902,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.29,"method":"car","pollution":9.267,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.5,"method":"public transit","pollution":4.581,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.12,"method":"public transit","pollution":21.298,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.91,"method":"car","pollution":8.395,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.39,"method":"car","pollution":2.342,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.05,"method":"carpool","pollution":1.484,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.34,"method":"public transit","pollution":21.012,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.7,"method":"carpool","pollution":10.517,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.41,"method":"car","pollution":14.442,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.15,"method":"carpool","pollution":20.209,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.51,"method":"car","pollution":13.745,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.51,"method":"car","pollution":11.18,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.2,"method":"car","pollution":9.967,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.46,"method":"car","pollution":0.901,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.08,"method":"car","pollution":13.221,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.04,"method":"car","pollution":5.511,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.01,"method":"car","pollution":1.103,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.35,"method":"car","pollution":0.861,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.29,"method":"car","pollution":17.696,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.03,"method":"car","pollution":7.34,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.59,"method":"car","pollution":11.942,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.39,"method":"car","pollution":18.465,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.59,"method":"car","pollution":11.21,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.79,"method":"public transit","pollution":1.755,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.87,"method":"carpool","pollution":3.617,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.95,"method":"car","pollution":16.105,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.75,"method":"walk","pollution":20.429,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.88,"method":"carpool","pollution":21.21,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.25,"method":"car","pollution":11.451,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.81,"method":"car","pollution":17.153,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.24,"method":"carpool","pollution":0.454,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.35,"method":"public transit","pollution":1.594,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.56,"method":"bike","pollution":1.671,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.7,"method":"car","pollution":13.815,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.32,"method":"car","pollution":6.347,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.41,"method":"car","pollution":18.106,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.71,"method":"walk","pollution":19.315,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.55,"method":"car","pollution":14.493,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.91,"method":"car","pollution":18.289,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.32,"method":"public transit","pollution":16.974,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.13,"method":"carpool","pollution":8.476,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.43,"method":"public transit","pollution":12.25,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.73,"method":"car","pollution":10.161,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.53,"method":"carpool","pollution":21.082,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.07,"method":"car","pollution":13.951,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.0,"method":"car","pollution":4.764,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.96,"method":"carpool","pollution":17.941,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.76,"method":"car","pollution":1.744,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.16,"method":"public transit","pollution":1.891,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.83,"method":"car","pollution":14.595,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.81,"method":"car","pollution":14.955,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.52,"method":"car","pollution":16.681,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.91,"method":"car","pollution":17.923,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.13,"method":"carpool","pollution":21.301,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.01,"method":"carpool","pollution":17.959,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.3,"method":"car","pollution":2.675,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.83,"method":"car","pollution":9.099,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.58,"method":"carpool","pollution":15.603,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.56,"method":"carpool","pollution":8.633,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.51,"method":"carpool","pollution":15.211,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.34,"method":"bike","pollution":12.217,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.91,"method":"car","pollution":18.656,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.8,"method":"bike","pollution":10.187,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.38,"method":"car","pollution":3.071,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.54,"method":"walk","pollution":21.452,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.03,"method":"car","pollution":17.967,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.09,"method":"car","pollution":12.859,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.33,"method":"car","pollution":8.916,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.56,"method":"car","pollution":17.795,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.33,"method":"bike","pollution":18.077,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.94,"method":"public transit","pollution":18.3,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.79,"method":"car","pollution":10.916,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.09,"method":"car","pollution":17.622,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.15,"method":"walk","pollution":4.452,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.13,"method":"bike","pollution":12.873,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.92,"method":"public transit","pollution":1.803,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.53,"method":"car","pollution":10.455,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.19,"method":"car","pollution":16.926,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.46,"method":"public transit","pollution":13.727,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.75,"method":"bike","pollution":18.231,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.83,"method":"carpool","pollution":18.626,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.21,"method":"car","pollution":6.673,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.0,"method":"car","pollution":7.695,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.38,"method":"car","pollution":6.002,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.65,"method":"car","pollution":12.331,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.48,"method":"car","pollution":17.399,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.08,"method":"car","pollution":20.184,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.15,"method":"carpool","pollution":15.446,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.95,"method":"public transit","pollution":9.876,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.66,"method":"public transit","pollution":7.571,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.92,"method":"car","pollution":16.094,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.07,"method":"carpool","pollution":10.653,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.2,"method":"car","pollution":3.005,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.52,"method":"public transit","pollution":1.656,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.69,"method":"car","pollution":0.986,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.97,"method":"car","pollution":1.088,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.01,"method":"carpool","pollution":12.829,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.58,"method":"car","pollution":4.243,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.74,"method":"carpool","pollution":2.47,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.35,"method":"car","pollution":9.289,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.75,"method":"carpool","pollution":7.604,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.52,"method":"car","pollution":0.557,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.27,"method":"carpool","pollution":17.322,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.61,"method":"carpool","pollution":0.59,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.94,"method":"public transit","pollution":14.269,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.36,"method":"car","pollution":3.796,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.97,"method":"walk","pollution":10.616,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.57,"method":"car","pollution":9.004,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.58,"method":"carpool","pollution":18.168,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.96,"method":"carpool","pollution":12.444,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.04,"method":"carpool","pollution":8.809,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.58,"method":"carpool","pollution":10.839,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.42,"method":"car","pollution":13.346,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.51,"method":"carpool","pollution":12.646,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.25,"method":"public transit","pollution":9.253,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.13,"method":"car","pollution":6.644,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.45,"method":"carpool","pollution":17.754,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.17,"method":"carpool","pollution":16.919,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.93,"method":"public transit","pollution":20.862,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.13,"method":"car","pollution":18.003,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.48,"method":"car","pollution":3.107,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.51,"method":"public transit","pollution":18.509,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.62,"method":"car","pollution":7.556,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.12,"method":"bike","pollution":5.174,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.12,"method":"carpool","pollution":19.099,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.0,"method":"car","pollution":21.62,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.08,"method":"public transit","pollution":16.886,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.63,"method":"car","pollution":5.728,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.17,"method":"car","pollution":16.186,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.3,"method":"public transit","pollution":7.805,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.05,"method":"carpool","pollution":5.881,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.07,"method":"carpool","pollution":18.714,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.74,"method":"car","pollution":9.432,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.94,"method":"carpool","pollution":18.667,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.02,"method":"car","pollution":4.038,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.7,"method":"car","pollution":2.455,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.96,"method":"car","pollution":13.177,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.81,"method":"car","pollution":18.253,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.96,"method":"public transit","pollution":8.78,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.63,"method":"car","pollution":9.026,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.92,"method":"walk","pollution":9.498,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.61,"method":"car","pollution":7.919,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.75,"method":"car","pollution":1.741,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.9,"method":"car","pollution":11.69,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.59,"method":"car","pollution":1.682,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.52,"method":"walk","pollution":4.221,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.06,"method":"carpool","pollution":12.848,"created_at":"2019-11-28 22:33:02","updated_at":"2019-11-28 22:33:02"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.82,"method":"car","pollution":13.126,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.36,"method":"car","pollution":14.423,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.8,"method":"public transit","pollution":5.057,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.82,"method":"car","pollution":4.698,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.81,"method":"carpool","pollution":7.259,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.17,"method":"carpool","pollution":7.391,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.64,"method":"car","pollution":12.327,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.54,"method":"walk","pollution":13.756,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.47,"method":"bike","pollution":1.272,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.54,"method":"bike","pollution":14.123,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.71,"method":"carpool","pollution":13.452,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.22,"method":"car","pollution":19.869,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.39,"method":"car","pollution":8.205,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.44,"method":"bike","pollution":14.819,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.72,"method":"carpool","pollution":15.654,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.41,"method":"car","pollution":20.305,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.05,"method":"car","pollution":16.508,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.35,"method":"public transit","pollution":0.861,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.74,"method":"car","pollution":4.302,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.89,"method":"car","pollution":12.052,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.33,"method":"car","pollution":8.183,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.39,"method":"public transit","pollution":4.174,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.76,"method":"car","pollution":5.409,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.37,"method":"car","pollution":18.458,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.4,"method":"carpool","pollution":6.743,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.29,"method":"public transit","pollution":8.168,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.12,"method":"car","pollution":14.702,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.93,"method":"carpool","pollution":18.663,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.75,"method":"car","pollution":12.734,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.85,"method":"carpool","pollution":20.466,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.27,"method":"public transit","pollution":18.421,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.24,"method":"car","pollution":18.777,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.6,"method":"car","pollution":5.35,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.6,"method":"car","pollution":3.151,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.1,"method":"car","pollution":21.657,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.62,"method":"carpool","pollution":9.022,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.28,"method":"car","pollution":4.133,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.63,"method":"car","pollution":4.628,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.62,"method":"public transit","pollution":2.792,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.75,"method":"carpool","pollution":14.933,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.53,"method":"public transit","pollution":10.455,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.19,"method":"walk","pollution":2.268,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.98,"method":"bike","pollution":9.887,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.29,"method":"carpool","pollution":2.305,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.48,"method":"car","pollution":14.101,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.01,"method":"car","pollution":14.661,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.72,"method":"bike","pollution":21.518,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.74,"method":"public transit","pollution":13.463,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.48,"method":"public transit","pollution":2.375,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.91,"method":"car","pollution":8.395,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.71,"method":"car","pollution":11.986,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.24,"method":"public transit","pollution":13.646,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.97,"method":"walk","pollution":5.119,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.54,"method":"car","pollution":15.955,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.93,"method":"public transit","pollution":18.663,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.78,"method":"car","pollution":12.378,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.12,"method":"walk","pollution":3.708,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.94,"method":"walk","pollution":12.437,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.07,"method":"car","pollution":1.491,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.24,"method":"car","pollution":9.615,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.58,"method":"public transit","pollution":18.168,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.99,"method":"car","pollution":2.195,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.97,"method":"walk","pollution":13.181,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.23,"method":"car","pollution":6.314,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.23,"method":"car","pollution":3.016,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.85,"method":"car","pollution":1.044,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.92,"method":"car","pollution":16.461,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.95,"method":"car","pollution":0.715,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.03,"method":"car","pollution":11.004,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.42,"method":"bike","pollution":16.277,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.91,"method":"carpool","pollution":7.662,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.5,"method":"carpool","pollution":11.177,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.23,"method":"car","pollution":19.506,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.26,"method":"carpool","pollution":19.517,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.19,"method":"carpool","pollution":7.032,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.93,"method":"bike","pollution":1.807,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.71,"method":"car","pollution":18.949,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.69,"method":"walk","pollution":11.613,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.02,"method":"car","pollution":10.634,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.49,"method":"car","pollution":4.577,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.23,"method":"bike","pollution":11.81,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.62,"method":"car","pollution":21.847,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.67,"method":"carpool","pollution":7.574,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.53,"method":"carpool","pollution":17.051,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.06,"method":"car","pollution":9.55,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.92,"method":"car","pollution":21.224,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.73,"method":"carpool","pollution":7.596,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.58,"method":"walk","pollution":6.076,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.87,"method":"car","pollution":9.113,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.38,"method":"carpool","pollution":6.002,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.34,"method":"car","pollution":19.18,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.36,"method":"carpool","pollution":8.927,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.83,"method":"car","pollution":14.962,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.55,"method":"carpool","pollution":11.561,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.26,"method":"walk","pollution":14.02,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.92,"method":"car","pollution":5.834,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.2,"method":"car","pollution":21.327,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.06,"method":"carpool","pollution":15.046,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.62,"method":"car","pollution":18.916,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.29,"method":"car","pollution":15.863,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.37,"method":"public transit","pollution":2.701,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.68,"method":"carpool","pollution":4.647,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.07,"method":"car","pollution":17.615,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.52,"method":"public transit","pollution":17.78,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.66,"method":"bike","pollution":16.365,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.76,"method":"public transit","pollution":1.378,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.8,"method":"car","pollution":2.858,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.16,"method":"car","pollution":0.425,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.42,"method":"public transit","pollution":16.277,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.68,"method":"car","pollution":1.715,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.83,"method":"bike","pollution":3.602,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.89,"method":"car","pollution":8.754,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.22,"method":"public transit","pollution":21.701,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.98,"method":"carpool","pollution":15.383,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.58,"method":"carpool","pollution":5.709,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.78,"method":"walk","pollution":13.844,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.13,"method":"car","pollution":11.774,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.34,"method":"public transit","pollution":13.683,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.23,"method":"public transit","pollution":6.68,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.29,"method":"carpool","pollution":15.863,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.48,"method":"car","pollution":1.642,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.65,"method":"car","pollution":21.126,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.04,"method":"carpool","pollution":8.809,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.55,"method":"car","pollution":8.996,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.47,"method":"public transit","pollution":17.762,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.91,"method":"walk","pollution":15.724,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.65,"method":"car","pollution":7.934,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.83,"method":"car","pollution":19.726,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.38,"method":"car","pollution":16.996,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.19,"method":"car","pollution":19.491,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.19,"method":"public transit","pollution":18.025,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.38,"method":"carpool","pollution":5.269,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.48,"method":"bike","pollution":14.101,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.49,"method":"public transit","pollution":2.378,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.68,"method":"carpool","pollution":9.044,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.73,"method":"carpool","pollution":19.689,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.46,"method":"carpool","pollution":0.535,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.9,"method":"walk","pollution":1.796,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.3,"method":"carpool","pollution":12.935,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.84,"method":"car","pollution":18.63,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.02,"method":"car","pollution":6.237,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.2,"method":"car","pollution":5.57,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.39,"method":"carpool","pollution":3.807,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.8,"method":"car","pollution":9.821,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.9,"method":"walk","pollution":17.186,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.08,"method":"bike","pollution":18.352,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.89,"method":"car","pollution":5.823,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.15,"method":"car","pollution":8.85,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.87,"method":"car","pollution":14.244,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.61,"method":"car","pollution":3.155,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.65,"method":"walk","pollution":16.728,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.65,"method":"carpool","pollution":1.704,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.24,"method":"car","pollution":8.516,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.94,"method":"car","pollution":13.903,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.31,"method":"car","pollution":21.734,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.59,"method":"public transit","pollution":8.644,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.04,"method":"carpool","pollution":10.642,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.56,"method":"car","pollution":21.093,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.45,"method":"car","pollution":10.425,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.01,"method":"car","pollution":8.798,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.21,"method":"car","pollution":4.841,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.99,"method":"carpool","pollution":18.319,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.8,"method":"car","pollution":6.156,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.06,"method":"car","pollution":0.388,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.46,"method":"car","pollution":14.826,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.25,"method":"public transit","pollution":16.582,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.46,"method":"car","pollution":5.299,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.87,"method":"walk","pollution":11.312,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.36,"method":"car","pollution":12.957,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.65,"method":"public transit","pollution":14.163,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.61,"method":"public transit","pollution":2.789,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.64,"method":"car","pollution":21.122,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.58,"method":"walk","pollution":5.709,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.96,"method":"carpool","pollution":4.016,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.26,"method":"car","pollution":9.256,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.77,"method":"public transit","pollution":9.443,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.6,"method":"car","pollution":3.884,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.12,"method":"car","pollution":13.969,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.87,"method":"car","pollution":14.244,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.7,"method":"bike","pollution":20.777,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.14,"method":"car","pollution":7.747,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.75,"method":"walk","pollution":20.796,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.72,"method":"car","pollution":21.518,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.31,"method":"bike","pollution":18.802,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.58,"method":"walk","pollution":11.939,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.04,"method":"carpool","pollution":21.635,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.58,"method":"carpool","pollution":0.579,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.86,"method":"car","pollution":12.041,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.17,"method":"car","pollution":7.758,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.86,"method":"car","pollution":10.209,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.01,"method":"car","pollution":17.593,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.6,"method":"carpool","pollution":9.015,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.62,"method":"carpool","pollution":7.556,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.26,"method":"car","pollution":10.722,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.45,"method":"car","pollution":11.525,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.65,"method":"public transit","pollution":20.393,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.59,"method":"car","pollution":3.881,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.99,"method":"car","pollution":5.859,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.66,"method":"carpool","pollution":7.204,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.73,"method":"car","pollution":2.466,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.18,"method":"bike","pollution":11.792,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.73,"method":"public transit","pollution":18.223,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.19,"method":"carpool","pollution":5.2,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.16,"method":"car","pollution":20.213,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.52,"method":"public transit","pollution":5.321,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.91,"method":"carpool","pollution":13.525,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.83,"method":"carpool","pollution":17.527,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.49,"method":"car","pollution":15.57,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.49,"method":"carpool","pollution":14.471,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.03,"method":"car","pollution":0.377,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.28,"method":"car","pollution":7.065,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.55,"method":"public transit","pollution":1.667,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.03,"method":"carpool","pollution":12.104,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.7,"method":"car","pollution":9.051,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.44,"method":"public transit","pollution":9.689,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.69,"method":"carpool","pollution":5.383,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.38,"method":"car","pollution":19.927,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.79,"method":"car","pollution":10.183,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.23,"method":"bike","pollution":8.512,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.29,"method":"public transit","pollution":2.671,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.51,"method":"bike","pollution":0.553,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.76,"method":"carpool","pollution":3.943,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.68,"method":"carpool","pollution":18.571,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.03,"method":"public transit","pollution":10.271,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.35,"method":"carpool","pollution":12.954,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.44,"method":"carpool","pollution":8.956,"created_at":"2019-11-28 22:33:03","updated_at":"2019-11-28 22:33:03"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.49,"method":"car","pollution":19.235,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.84,"method":"carpool","pollution":18.264,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.15,"method":"public transit","pollution":6.651,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.05,"method":"public transit","pollution":19.073,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.58,"method":"walk","pollution":5.343,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.54,"method":"car","pollution":12.291,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.1,"method":"car","pollution":6.633,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.78,"method":"bike","pollution":13.111,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.75,"method":"car","pollution":4.672,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.24,"method":"car","pollution":7.417,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.71,"method":"car","pollution":7.956,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.63,"method":"walk","pollution":3.895,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.88,"method":"carpool","pollution":13.148,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.64,"method":"car","pollution":19.656,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.44,"method":"car","pollution":9.322,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.41,"method":"car","pollution":1.25,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.03,"method":"car","pollution":12.104,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.79,"method":"car","pollution":18.245,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.18,"method":"car","pollution":16.189,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.57,"method":"car","pollution":10.469,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.48,"method":"public transit","pollution":9.703,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.68,"method":"car","pollution":2.814,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.6,"method":"car","pollution":0.953,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.92,"method":"carpool","pollution":11.697,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.82,"method":"car","pollution":2.133,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.24,"method":"bike","pollution":16.944,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.45,"method":"bike","pollution":8.227,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.57,"method":"public transit","pollution":10.103,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.37,"method":"carpool","pollution":1.968,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.39,"method":"public transit","pollution":17.366,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.48,"method":"carpool","pollution":8.971,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.9,"method":"carpool","pollution":16.087,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.01,"method":"car","pollution":20.158,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.6,"method":"car","pollution":7.915,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.16,"method":"car","pollution":0.792,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.76,"method":"carpool","pollution":4.309,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.84,"method":"carpool","pollution":10.202,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.85,"method":"carpool","pollution":8.373,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.19,"method":"car","pollution":1.902,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.85,"method":"carpool","pollution":20.832,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.47,"method":"car","pollution":18.128,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.81,"method":"car","pollution":5.427,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.57,"method":"car","pollution":20.73,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.06,"method":"public transit","pollution":3.32,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.9,"method":"carpool","pollution":8.758,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.62,"method":"carpool","pollution":2.426,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.08,"method":"carpool","pollution":8.458,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.2,"method":"public transit","pollution":9.601,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.8,"method":"public transit","pollution":5.057,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.66,"method":"carpool","pollution":20.763,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.78,"method":"public transit","pollution":21.173,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.08,"method":"public transit","pollution":16.519,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.28,"method":"carpool","pollution":16.959,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.06,"method":"car","pollution":7.351,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.87,"method":"car","pollution":8.014,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.95,"method":"carpool","pollution":21.235,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.71,"method":"public transit","pollution":19.682,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.26,"method":"carpool","pollution":6.691,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.8,"method":"carpool","pollution":16.05,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.39,"method":"car","pollution":8.205,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.33,"method":"car","pollution":20.275,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.64,"method":"car","pollution":1.334,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.19,"method":"public transit","pollution":1.535,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.37,"method":"car","pollution":1.601,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.17,"method":"bike","pollution":6.292,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.0,"method":"car","pollution":17.223,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.41,"method":"car","pollution":10.777,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.51,"method":"car","pollution":18.876,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.74,"method":"car","pollution":1.004,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.64,"method":"car","pollution":1.7,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.06,"method":"carpool","pollution":3.686,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.28,"method":"car","pollution":3.034,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.59,"method":"car","pollution":19.271,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.38,"method":"car","pollution":6.002,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.97,"method":"car","pollution":4.386,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.51,"method":"carpool","pollution":6.783,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.08,"method":"carpool","pollution":15.42,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.75,"method":"public transit","pollution":5.405,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.57,"method":"carpool","pollution":15.233,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.87,"method":"carpool","pollution":21.939,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":20.22,"method":"car","pollution":7.409,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.93,"method":"walk","pollution":12.8,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.91,"method":"car","pollution":14.991,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.01,"method":"bike","pollution":16.127,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.24,"method":"car","pollution":12.547,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.81,"method":"car","pollution":16.787,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.72,"method":"car","pollution":1.73,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.24,"method":"walk","pollution":2.287,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.61,"method":"car","pollution":14.881,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.33,"method":"car","pollution":19.909,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.39,"method":"public transit","pollution":0.509,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.25,"method":"public transit","pollution":18.414,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.5,"method":"bike","pollution":3.115,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.03,"method":"car","pollution":9.905,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.77,"method":"carpool","pollution":10.176,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.89,"method":"carpool","pollution":1.425,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.17,"method":"car","pollution":7.758,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.02,"method":"carpool","pollution":15.032,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.55,"method":"car","pollution":13.394,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.81,"method":"car","pollution":12.023,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.75,"method":"carpool","pollution":17.864,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.58,"method":"public transit","pollution":3.511,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.65,"method":"car","pollution":9.766,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.06,"method":"car","pollution":6.618,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.3,"method":"car","pollution":10.737,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.23,"method":"carpool","pollution":0.817,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.47,"method":"bike","pollution":14.464,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.42,"method":"car","pollution":1.253,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.22,"method":"car","pollution":18.036,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.09,"method":"carpool","pollution":9.927,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.31,"method":"car","pollution":8.542,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.14,"method":"carpool","pollution":1.151,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.81,"method":"carpool","pollution":9.824,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.75,"method":"public transit","pollution":21.529,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.94,"method":"carpool","pollution":10.605,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.46,"method":"car","pollution":3.1,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.04,"method":"carpool","pollution":3.679,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.44,"method":"car","pollution":18.117,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.26,"method":"car","pollution":18.784,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.4,"method":"carpool","pollution":18.469,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.05,"method":"car","pollution":21.639,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.17,"method":"car","pollution":19.117,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.91,"method":"carpool","pollution":9.861,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.35,"method":"public transit","pollution":1.594,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.47,"method":"carpool","pollution":17.762,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.69,"method":"public transit","pollution":12.712,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.9,"method":"bike","pollution":2.895,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.03,"method":"public transit","pollution":20.532,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.4,"method":"car","pollution":1.612,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.71,"method":"car","pollution":10.521,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.37,"method":"car","pollution":14.06,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.45,"method":"walk","pollution":14.09,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.54,"method":"car","pollution":0.931,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.96,"method":"car","pollution":3.65,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.64,"method":"car","pollution":6.831,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.98,"method":"carpool","pollution":2.191,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.67,"method":"public transit","pollution":2.444,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.29,"method":"car","pollution":4.137,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.12,"method":"carpool","pollution":3.342,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.76,"method":"car","pollution":4.309,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.07,"method":"car","pollution":14.683,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.86,"method":"car","pollution":12.774,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.44,"method":"car","pollution":2.36,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.83,"method":"car","pollution":18.993,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.28,"method":"car","pollution":8.531,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.86,"method":"car","pollution":17.904,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":41.35,"method":"car","pollution":15.152,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.58,"method":"car","pollution":4.61,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.47,"method":"bike","pollution":6.402,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.91,"method":"walk","pollution":3.998,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.03,"method":"carpool","pollution":6.241,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.52,"method":"car","pollution":15.581,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.36,"method":"bike","pollution":7.827,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.2,"method":"carpool","pollution":8.135,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.52,"method":"bike","pollution":8.619,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.53,"method":"carpool","pollution":5.324,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.25,"method":"car","pollution":15.482,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.27,"method":"public transit","pollution":0.832,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.44,"method":"car","pollution":4.925,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.08,"method":"car","pollution":10.656,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":33.08,"method":"carpool","pollution":12.122,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.97,"method":"bike","pollution":5.119,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.86,"method":"public transit","pollution":20.103,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.73,"method":"public transit","pollution":17.49,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.88,"method":"car","pollution":1.422,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.63,"method":"car","pollution":9.758,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.0,"method":"walk","pollution":13.925,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.06,"method":"car","pollution":4.419,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.25,"method":"car","pollution":16.582,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.49,"method":"carpool","pollution":15.57,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.01,"method":"carpool","pollution":9.165,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.52,"method":"carpool","pollution":17.78,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.17,"method":"carpool","pollution":6.658,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.7,"method":"car","pollution":3.188,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.21,"method":"car","pollution":5.207,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.14,"method":"car","pollution":3.349,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.25,"method":"carpool","pollution":21.345,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.83,"method":"carpool","pollution":21.191,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.1,"method":"bike","pollution":19.092,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.79,"method":"car","pollution":1.755,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.34,"method":"carpool","pollution":5.255,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.11,"method":"bike","pollution":7.736,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.69,"method":"car","pollution":7.948,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.57,"method":"carpool","pollution":1.308,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.97,"method":"public transit","pollution":17.212,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.57,"method":"car","pollution":12.668,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.59,"method":"carpool","pollution":3.881,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.23,"method":"walk","pollution":7.78,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.28,"method":"carpool","pollution":3.034,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.29,"method":"carpool","pollution":11.832,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.94,"method":"bike","pollution":21.965,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.86,"method":"bike","pollution":3.98,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.69,"method":"car","pollution":16.01,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.91,"method":"public transit","pollution":10.227,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.53,"method":"public transit","pollution":17.051,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.23,"method":"walk","pollution":9.612,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.22,"method":"car","pollution":7.776,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.77,"method":"car","pollution":5.412,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.88,"method":"carpool","pollution":18.278,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.17,"method":"public transit","pollution":8.857,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.39,"method":"bike","pollution":19.931,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.84,"method":"car","pollution":14.599,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.51,"method":"carpool","pollution":12.646,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.28,"method":"walk","pollution":5.599,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.86,"method":"car","pollution":14.973,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.11,"method":"carpool","pollution":19.462,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.57,"method":"car","pollution":5.339,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.2,"method":"bike","pollution":6.669,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.13,"method":"car","pollution":18.003,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.77,"method":"public transit","pollution":18.604,"created_at":"2019-11-28 22:33:04","updated_at":"2019-11-28 22:33:04"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":22.98,"method":"walk","pollution":8.421,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.01,"method":"car","pollution":12.463,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.05,"method":"carpool","pollution":4.049,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.75,"method":"bike","pollution":14.2,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.25,"method":"car","pollution":18.047,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.07,"method":"public transit","pollution":14.317,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.45,"method":"car","pollution":17.754,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.73,"method":"car","pollution":9.062,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":2.64,"method":"carpool","pollution":0.967,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.93,"method":"carpool","pollution":10.235,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.85,"method":"carpool","pollution":18.267,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":28.41,"method":"carpool","pollution":10.411,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.33,"method":"car","pollution":1.587,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.59,"method":"car","pollution":20.371,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.42,"method":"car","pollution":4.185,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":36.3,"method":"car","pollution":13.302,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.2,"method":"car","pollution":15.83,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.01,"method":"carpool","pollution":21.624,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.63,"method":"carpool","pollution":20.752,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.85,"method":"car","pollution":9.473,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.26,"method":"car","pollution":5.958,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.07,"method":"public transit","pollution":14.317,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":13.83,"method":"car","pollution":5.068,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.34,"method":"carpool","pollution":16.615,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.39,"method":"carpool","pollution":3.074,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.11,"method":"car","pollution":15.431,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.88,"method":"carpool","pollution":2.155,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":34.82,"method":"car","pollution":12.76,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.21,"method":"walk","pollution":11.437,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.79,"method":"car","pollution":21.177,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.77,"method":"carpool","pollution":17.871,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":46.31,"method":"car","pollution":16.97,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.92,"method":"car","pollution":18.659,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.69,"method":"bike","pollution":18.941,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.77,"method":"bike","pollution":1.381,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":35.07,"method":"car","pollution":12.851,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.6,"method":"car","pollution":17.443,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.21,"method":"carpool","pollution":1.909,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.22,"method":"car","pollution":18.403,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.94,"method":"walk","pollution":6.94,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":10.05,"method":"car","pollution":3.683,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.39,"method":"car","pollution":9.304,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.96,"method":"car","pollution":5.848,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.05,"method":"public transit","pollution":2.95,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":55.51,"method":"public transit","pollution":20.341,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.28,"method":"public transit","pollution":20.623,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.55,"method":"carpool","pollution":17.424,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":45.9,"method":"walk","pollution":16.82,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":14.56,"method":"car","pollution":5.335,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.07,"method":"carpool","pollution":17.249,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":37.17,"method":"public transit","pollution":13.621,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.24,"method":"car","pollution":21.342,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.67,"method":"carpool","pollution":4.276,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.74,"method":"carpool","pollution":7.234,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.19,"method":"carpool","pollution":16.193,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.43,"method":"public transit","pollution":21.045,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":51.92,"method":"carpool","pollution":19.026,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.21,"method":"car","pollution":4.108,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.09,"method":"car","pollution":1.132,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":57.75,"method":"public transit","pollution":21.162,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.64,"method":"car","pollution":14.892,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.75,"method":"car","pollution":3.206,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.02,"method":"car","pollution":16.131,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.51,"method":"car","pollution":0.553,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.16,"method":"bike","pollution":4.456,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.26,"method":"car","pollution":19.883,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.84,"method":"public transit","pollution":11.668,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.73,"method":"car","pollution":9.429,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":24.81,"method":"car","pollution":9.091,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.35,"method":"car","pollution":19.55,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.0,"method":"bike","pollution":15.757,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":19.63,"method":"public transit","pollution":7.193,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.94,"method":"car","pollution":6.574,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":59.05,"method":"car","pollution":21.639,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":16.47,"method":"car","pollution":6.035,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.03,"method":"carpool","pollution":13.936,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":23.88,"method":"car","pollution":8.751,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":6.25,"method":"car","pollution":2.29,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.6,"method":"car","pollution":17.809,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":3.12,"method":"carpool","pollution":1.143,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.58,"method":"carpool","pollution":17.802,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.98,"method":"car","pollution":4.39,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":40.89,"method":"carpool","pollution":14.984,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":42.26,"method":"public transit","pollution":15.486,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.73,"method":"carpool","pollution":16.391,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.61,"method":"car","pollution":11.583,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":49.33,"method":"bike","pollution":18.077,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.81,"method":"carpool","pollution":7.992,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":56.88,"method":"public transit","pollution":20.843,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":15.08,"method":"carpool","pollution":5.526,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.16,"method":"car","pollution":21.312,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.44,"method":"car","pollution":16.285,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":31.27,"method":"car","pollution":11.459,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.88,"method":"car","pollution":3.62,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":47.09,"method":"car","pollution":17.256,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.29,"method":"public transit","pollution":6.702,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":32.48,"method":"car","pollution":11.902,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.89,"method":"bike","pollution":21.58,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":39.32,"method":"carpool","pollution":14.409,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.98,"method":"public transit","pollution":16.116,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":21.74,"method":"carpool","pollution":7.966,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":12.67,"method":"car","pollution":4.643,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.95,"method":"car","pollution":4.379,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":48.97,"method":"public transit","pollution":17.945,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":58.56,"method":"carpool","pollution":21.459,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":43.23,"method":"car","pollution":15.841,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":38.5,"method":"bike","pollution":14.108,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.3,"method":"carpool","pollution":0.476,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":30.15,"method":"carpool","pollution":11.048,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":11.44,"method":"car","pollution":4.192,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.85,"method":"carpool","pollution":3.609,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":53.74,"method":"car","pollution":19.693,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":7.97,"method":"car","pollution":2.921,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.22,"method":"public transit","pollution":3.379,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":29.56,"method":"car","pollution":10.832,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":44.72,"method":"carpool","pollution":16.387,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.03,"method":"carpool","pollution":3.309,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":9.47,"method":"car","pollution":3.47,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":25.25,"method":"car","pollution":9.253,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":52.73,"method":"walk","pollution":19.323,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":5.72,"method":"public transit","pollution":2.096,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":1.6,"method":"public transit","pollution":0.586,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":50.69,"method":"car","pollution":18.575,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":27.47,"method":"carpool","pollution":10.066,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":26.69,"method":"car","pollution":9.78,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":17.84,"method":"car","pollution":6.537,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":18.84,"method":"carpool","pollution":6.904,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":8.1,"method":"car","pollution":2.968,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":54.56,"method":"carpool","pollution":19.993,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}
+{"user":null,"start_addr":null,"end_addr":null,"distance":4.7,"method":"car","pollution":1.722,"created_at":"2019-11-28 22:33:05","updated_at":"2019-11-28 22:33:05"}

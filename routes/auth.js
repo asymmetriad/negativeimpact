@@ -35,11 +35,12 @@ router.get('/callback', function (req, res, next) {
 router.get('/logout', (req, res) => {
   req.logout();
 
-  var returnTo = req.protocol + '://' + req.hostname;
-  var port = req.connection.localPort;
-  if (port !== undefined && port !== 80 && port !== 443) {
-    returnTo += ':' + port;
-  }
+  //var returnTo = req.protocol + '://' + 'req.hostname';
+  //var port = req.connection.localPort;
+  //if (port !== undefined && port !== 80 && port !== 443) {
+  //  returnTo += ':' + port;
+  //}
+  var returnTo = 'http://9b903281.ngrok.io/';
   var logoutURL = new url.URL(
     util.format('https://%s/v2/logout', process.env.AUTH0_DOMAIN)
   );

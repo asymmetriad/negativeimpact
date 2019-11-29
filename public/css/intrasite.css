@@ -40,11 +40,16 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent
 }
-
-footer, header, main, section {
-  display: block
+header, main, section {
+  display: block;
 }
-
+footer {
+  min-height: 12vh;
+  z-index: -1;
+}
+.page{
+  min-height: 70vh;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -53,9 +58,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff
+  background-color: #fff;
 }
-
 [tabindex="-1"]:focus {
   outline: 0 !important
 }
@@ -263,7 +267,8 @@ a>code {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  width: 100%
+  width: 100%;
+  padding-bottom: 50px;
 }
 
 @media(min-width:576px) {
@@ -1605,7 +1610,7 @@ h1, h2, h3 {
 
 h1 {
   color: #fff;
-  font-size: 2.2em
+  font-size: 2.3em
 }
 
 h2 {
@@ -1637,7 +1642,6 @@ main {
 }
 
 .bgc-parallax {
-  position: relative;
   height:1000px;
 }
 
@@ -1647,27 +1651,11 @@ main {
   }
 }
 
-.bgc-parallax.car {
-  overflow: hidden;
-  height: 50em
-}
-
-.bgc {
+body {
+  background-image: url(http://9b903281.ngrok.io/image/blur_pollution.png);
   background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
-  width: 100%;
-  top: 0
-}
-
-.masthead {
-  background-image: url(http://9b903281.ngrok.io/image/cover-image.jpg);
-  background-position-x: 60%;
-  background-position-y: 90%;
-  position: fixed;
-  z-index: -1;
-  height: 90%
-}
+  }
 
 .old-car {
   background-image: url(http://9b903281.ngrok.io/image/old-car.jpg);
@@ -1726,7 +1714,7 @@ main {
 
 footer {
   background-color: #192431;
-  padding: 8.8em 0 7em
+  padding: 2.8em 0 3.5em
 }
 
 .pink-col {
@@ -1966,4 +1954,97 @@ footer a:hover {
 
 .fade-active {
   opacity: 1
+}
+
+ul.nav {
+  display:inline-flex;
+  float:right;
+  list-style-type: none;
+  margin-top:10px;
+  padding:50px;
+}
+
+li.nav-items a{
+  display:inline-block;
+  padding-left:30px;
+  color:white;
+  text-decoration: none;
+  font-size:20px;
+}
+
+li.nav-items a:hover {
+  color:lightgray;
+  text-decoration: none;
+}
+
+li.nav-items a:visited {
+  color:white;
+  text-decoration: none;
+}
+
+.big {
+  font-size: 1.2em;
+}
+
+/* Custom dropdown */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+
+.custom-dropdown select {
+  background-color: darkred;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.custom-dropdown select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.custom-dropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+.custom-dropdown::after {
+  color: rgba(0,0,0,.4);
 }
