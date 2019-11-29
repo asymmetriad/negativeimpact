@@ -10,12 +10,24 @@ var router = express.Router();
 /* GET user profile. */
 router.get('/user', secured(), function (req, res, next) {
   const { _raw, _json, ...userProfile } = req.user;
-  User = user.user;
+  var User = user.user;
+  var find_user = user.find_user;
+  var find_trips = trip.find_trips;
   User.countDocuments({auth0_id:userProfile.user_id}, function (err, count){
     if(count>0){
-      res.render('home.pug', {
-        userProfile: JSON.stringify(userProfile, null, 2),
-        title: 'Profile page'
+      find_user(userProfile.user_id,function(error,user){
+        if (error) {
+          console.log(error);
+        }
+        find_trips(user._id,function(error1,trips){
+          if(error1) {
+            console.log(error1);
+          }
+          res.render('home.pug', {
+            user: user,
+            trips: trips
+          });
+        });
       });
     }
     else {
@@ -33,6 +45,8 @@ router.post('/users/fsignup',secured(), function (req, res, next){
   User = user.user;
   var initiate = new User(req.body);
   initiate.auth0_id = userProfile.user_id;
+  initiate.pollution = 0;
+  initiate.distance = 0;
   initiate.save();
   res.redirect('/user');
 });

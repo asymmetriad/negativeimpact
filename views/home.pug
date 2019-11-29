@@ -5,10 +5,37 @@ block content
   .w3-container
     .w3-card-4
       header
-      h1 Welcome #{user.nickname}
+      h4.h4.white Welcome #{user.nickname}!
       img(src=user.picture)
-      h3.logo User profile
-      p This is the content of <code>req.user</code>.
-      p Note: <code>_raw</code> and <code>_json</code> properties have been ommited.
+      h4.h4.white User profile
+      h5.h5.white TODO:
+      code Previous trips:
+      br
+      code New Trip Button
+      br
+      code Statewide and Nationwide statistics based on users of Negative Impact
+      br
+      code Social Comparison Feed
+      br
+      br
+      h5.h5.white Kilograms of Carbon Dioxide Released Into the Atmosphere During Your Trips:
       pre
-        code #{userProfile}
+        code #{user.pollution}
+      h5.h5.white Total Distance Traveled (mi):
+      pre
+        code #{user.distance}      
+      h5.h5.white Past Trips:
+      pre
+        each trip in trips
+          code Start Address: #{trip.start_addr}
+          br
+          code End Address: #{trip.end_addr}
+          br
+          code Trip Distance: #{trip.distance}
+          br
+          code Trip Method: #{trip.method}
+          br
+          code Resultant CO2 (kg): #{trip.pollution}
+          br
+          br
+      br

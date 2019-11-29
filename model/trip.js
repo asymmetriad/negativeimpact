@@ -15,6 +15,8 @@ const tripSchema = new Schema({
   timestamps:true
 });
 
+
+
 // returns here session object for further use, to be called only once when application first loads
 function new_here_session() {
   var platform = new H.service.Platform({'apikey' : process.env.HERE_API_KEY
@@ -43,3 +45,17 @@ function get_all_routes(platform) {
 }
 
 module.exports.trip = db.model('Trip',tripSchema);
+
+function retrieveTrips (user_id, callback) {
+  var Trip = db.model('Trip',tripSchema);
+  return Trip.find({user: user_id}, function(err, trips){
+    if (err) {
+      callback(err,null);
+    }
+    else {
+      callback(null,trips);
+    }
+  });
+}
+
+module.exports.find_trips = retrieveTrips;
