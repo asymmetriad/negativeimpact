@@ -1,0 +1,222 @@
+ {
+   "waypoint": [{
+     "linkId": "+21549070",
+     "mappedPosition": {
+       "latitude": 40.7562998,
+       "longitude": -73.9904725
+     },
+     "originalPosition": {
+       "latitude": 40.75637,
+       "longitude": -73.99064
+     },
+     "type": "stopOver",
+     "spot": 0.55,
+     "sideOfStreet": "left",
+     "mappedRoadName": "8th Ave",
+     "label": "8th Ave",
+     "shapeIndex": 0,
+     "source": "user"
+   }, {
+     "linkId": "+1198859055",
+     "mappedPosition": {
+       "latitude": 40.7792394,
+       "longitude": -73.959067
+     },
+     "originalPosition": {
+       "latitude": 40.7793399,
+       "longitude": -73.9589901
+     },
+     "type": "stopOver",
+     "spot": 0.7619048,
+     "sideOfStreet": "right",
+     "mappedRoadName": "E 84th St",
+     "label": "E 84th St",
+     "shapeIndex": 34,
+     "source": "user"
+   }],
+   "mode": {
+     "type": "fastest",
+     "transportModes": ["publicTransport"],
+     "trafficMode": "enabled",
+     "feature": []
+   },
+   "leg": [{
+     "start": {
+       "linkId": "+21549070",
+       "mappedPosition": {
+         "latitude": 40.7562998,
+         "longitude": -73.9904725
+       },
+       "originalPosition": {
+         "latitude": 40.75637,
+         "longitude": -73.99064
+       },
+       "type": "stopOver",
+       "spot": 0.55,
+       "sideOfStreet": "left",
+       "mappedRoadName": "8th Ave",
+       "label": "8th Ave",
+       "shapeIndex": 0,
+       "source": "user"
+     },
+     "end": {
+       "linkId": "+1198859055",
+       "mappedPosition": {
+         "latitude": 40.7792394,
+         "longitude": -73.959067
+       },
+       "originalPosition": {
+         "latitude": 40.7793399,
+         "longitude": -73.9589901
+       },
+       "type": "stopOver",
+       "spot": 0.7619048,
+       "sideOfStreet": "right",
+       "mappedRoadName": "E 84th St",
+       "label": "E 84th St",
+       "shapeIndex": 34,
+       "source": "user"
+     },
+     "length": 6205,
+     "travelTime": 2360,
+     "maneuver": [{
+       "position": {
+         "latitude": 40.7562998,
+         "longitude": -73.9904725
+       },
+       "instruction": "Head <span class=\"heading\">northeast</span> on <span class=\"street\">8th Ave</span>. <span class=\"distance-description\">Go for <span class=\"length\">36 m</span>.</span>",
+       "travelTime": 46,
+       "length": 36,
+       "shape": ["40.7562998,-73.9904725", "40.7565844,-73.9902699"],
+       "direction": "forward",
+       "action": "depart",
+       "id": "M1",
+       "_type": "PrivateTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7565844,
+         "longitude": -73.9902699
+       },
+       "instruction": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">W 41st St</span>. <span class=\"distance-description\">Go for <span class=\"length\">351 m</span>.</span>",
+       "travelTime": 359,
+       "length": 351,
+       "shape": ["40.7565844,-73.9902699", "40.7558978,-73.9886928", "40.7550395,-73.9866328"],
+       "direction": "right",
+       "action": "rightTurn",
+       "id": "M2",
+       "_type": "PrivateTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7550395,
+         "longitude": -73.9866328
+       },
+       "instruction": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">Broadway</span>. <span class=\"distance-description\">Go for <span class=\"length\">42 m</span>.</span>",
+       "travelTime": 42,
+       "length": 42,
+       "shape": ["40.7550395,-73.9866328", "40.754675,-73.9867525", "40.7546639,-73.9867401"],
+       "direction": "right",
+       "action": "rightTurn",
+       "id": "M3",
+       "_type": "PrivateTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7546639,
+         "longitude": -73.9867401
+       },
+       "instruction": "Go to the station <span class=\"station\">Times Sq - 42 St</span> and take the <span class=\"transit\">rail</span> <span class=\"line\">Q</span> toward <span class=\"destination\">96 St</span>. <span class=\"distance-description\">Follow for <span class=\"stops\">5 stations</span>.</span>",
+       "travelTime": 1115,
+       "length": 4998,
+       "shape": ["40.7546639,-73.9867401", "40.7550502,-73.9866114", "40.7562196,-73.986268", "40.7576787,-73.9857423", "40.7583654,-73.9851844", "40.7608008,-73.9834142", "40.7646203,-73.9806032", "40.7674742,-73.9785647", "40.7676888,-73.9783502", "40.7680213,-73.9779532", "40.7682467,-73.9774597", "40.7683969,-73.9770734", "40.7684612,-73.9767516", "40.7684934,-73.9762902", "40.7684827,-73.9758503", "40.768429,-73.9754105", "40.7683539,-73.9750457", "40.7661009,-73.969574", "40.7642448,-73.9651859", "40.7636654,-73.9639199", "40.7634187,-73.9630294", "40.7633865,-73.9627934", "40.7634187,-73.9625573", "40.763526,-73.9623213", "40.7637835,-73.9619243", "40.7696199,-73.9578259", "40.7778919,-73.9517856"],
+       "id": "M4",
+       "action": "enter",
+       "stopName": "Times Sq - 42 St",
+       "line": "L1",
+       "_type": "PublicTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7778919,
+         "longitude": -73.9517856
+       },
+       "instruction": "Get off at <span class=\"station\">86 St</span>.",
+       "travelTime": 0,
+       "length": 0,
+       "shape": ["40.7778919,-73.9517856"],
+       "id": "M5",
+       "action": "leave",
+       "stopName": "86 St",
+       "line": "L1",
+       "nextRoadName": "E 86th St",
+       "_type": "PublicTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7778919,
+         "longitude": -73.9517856
+       },
+       "instruction": "Head <span class=\"heading\">northwest</span> on <span class=\"street\">E 86th St</span>. <span class=\"distance-description\">Go for <span class=\"length\">517 m</span>.</span>",
+       "travelTime": 527,
+       "length": 517,
+       "shape": ["40.7778919,-73.9517856", "40.7801449,-73.9571178"],
+       "direction": "forward",
+       "action": "continue",
+       "id": "M6",
+       "_type": "PrivateTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7801449,
+         "longitude": -73.9571178
+       },
+       "instruction": "Turn <span class=\"direction\">left</span> onto <span class=\"next-street\">Park Ave</span>. <span class=\"distance-description\">Go for <span class=\"length\">167 m</span>.</span>",
+       "travelTime": 177,
+       "length": 167,
+       "shape": ["40.7801449,-73.9571178", "40.7788253,-73.9581048"],
+       "direction": "left",
+       "action": "leftTurn",
+       "id": "M7",
+       "_type": "PrivateTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7788253,
+         "longitude": -73.9581048
+       },
+       "instruction": "Turn <span class=\"direction\">right</span> onto <span class=\"next-street\">E 84th St</span>. <span class=\"distance-description\">Go for <span class=\"length\">94 m</span>.</span>",
+       "travelTime": 94,
+       "length": 94,
+       "shape": ["40.7788253,-73.9581048", "40.7792394,-73.959067"],
+       "direction": "right",
+       "action": "rightTurn",
+       "id": "M8",
+       "_type": "PrivateTransportManeuverType"
+     }, {
+       "position": {
+         "latitude": 40.7792394,
+         "longitude": -73.959067
+       },
+       "instruction": "Arrive at <span class=\"street\">E 84th St</span>. Your destination is on the right.",
+       "travelTime": 0,
+       "length": 0,
+       "shape": ["40.7792394,-73.959067"],
+       "direction": "forward",
+       "action": "arrive",
+       "id": "M9",
+       "_type": "PrivateTransportManeuverType"
+     }]
+   }],
+   "publicTransportLine": [{
+     "lineName": "Q",
+     "lineForeground": "#FCCC0A",
+     "lineBackground": "#FCCC0A",
+     "companyName": "",
+     "destination": "96 St",
+     "type": "railMetro",
+     "id": "L1"
+   }],
+   "summary": {
+     "distance": 6205,
+     "baseTime": 2360,
+     "flags": ["noThroughRoad", "builtUpArea"],
+     "text": "The trip takes <span class=\"length\">6.2 km</span> and <span class=\"time\">39 mins</span>.",
+     "travelTime": 2360,
+     "departure": "2019-11-30T05:45:20-05:00",
+     "_type": "PublicTransportRouteSummaryType"
+   }
+ }
