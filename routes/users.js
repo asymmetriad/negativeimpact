@@ -51,5 +51,8 @@ router.post('/users/fsignup',secured(), function (req, res, next){
   res.redirect('/user');
 });
 
+router.get('/new_trip',secured(), function (req, res, next) {
+
+});
 
 module.exports = router;
