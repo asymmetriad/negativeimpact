@@ -1,25 +1,25 @@
 const express = require('express');
 const mustache = require('mustache-express');
 const bodyParser = require('body-parser');
-var session = require('express-session');
+let session = require('express-session');
 // Load Passport
-var passport = require('passport');
-var Auth0Strategy = require('passport-auth0');
-var userInViews = require('./lib/middleware/userInViews');
+let passport = require('passport');
+let Auth0Strategy = require('passport-auth0');
+let userInViews = require('./lib/middleware/userInViews');
 
 
 require('./db');
 
 require('express-async-errors');
-// Load environment variables from .env
-var dotenv = require('dotenv');
+// Load environment letiables from .env
+let dotenv = require('dotenv');
 const app = express();
 const port = 3000;
 
 dotenv.config();
 
 // static load public folder
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 // Loads jQuery as a static file, since it runs on the frontend.
 app.use("/node_modules/jquery/dist/", express.static('./node_modules/jquery/dist/'));
@@ -31,12 +31,12 @@ app.set('views', __dirname + '/views');
 
 app.listen(port, () => console.log(`Negative Impact server listening on http://localhost:${port}!`));
 
-var authRouter = require('./routes/auth');
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+let authRouter = require('./routes/auth');
+let indexRouter = require('./routes/index');
+let usersRouter = require('./routes/users');
 
 // config express-session
-var sess = {
+let sess = {
   secret: process.env.CUST_SECRET,
   cookie: {},
   resave: false,
@@ -57,7 +57,7 @@ app.use(session(sess));
 
 
 // Configure Passport to use Auth0
-var strategy = new Auth0Strategy(
+let strategy = new Auth0Strategy(
   {
     domain: process.env.AUTH0_DOMAIN,
     clientID: process.env.AUTH0_CLIENT_ID,
@@ -93,4 +93,4 @@ passport.deserializeUser(function(user, done) {
 
 //mongodb model
 let User = require('./model/user');
-let Trip = require('./model/trip')
+let Trip = require('./model/trip');
