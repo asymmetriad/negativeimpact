@@ -161,7 +161,7 @@ head
     top: 0
     }
     .masthead {
-    background-image: url(http://9b903281.ngrok.io/image/cover-image.jpg);
+    background-image: url(http://localhost:3000/image/cover-image.jpg);
     background-position-x: 60%;
     background-position-y: 90%;
     position: fixed;
@@ -193,9 +193,9 @@ head
   link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='preload' as='style' onload="this.rel='stylesheet'")
   noscript
     link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet')
-  link(href='http://9b903281.ngrok.io/css/main.min.css?16b0249883a0043e1470' rel='preload' as='style' onload="this.rel='stylesheet'")
+  link(href='http://localhost:3000/css/main.min.css?16b0249883a0043e1470' rel='preload' as='style' onload="this.rel='stylesheet'")
   noscript
-    link(href='http://9b903281.ngrok.io/css/main.min.css?16b0249883a0043e1470' rel='stylesheet')
+    link(href='http://localhost:3000/css/main.min.css?16b0249883a0043e1470' rel='stylesheet')
   script.
     !function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);
 svg(xmlns='http://www.w3.org/2000/svg' style='display:none')
@@ -218,7 +218,7 @@ header.bgc-parallax
         h1 Take a step in the right direction. Today.
         p
           | Join a nationwide community of people striving to reduce our species' carbon footprint by considering and utilizing alternate travel options.
-        a.arrow-link(href='http://9b903281.ngrok.io/login')
+        a.arrow-link(href='http://localhost:3000/login')
           | Log In or Sign Up Now
           svg.icon-long-arrow-right.icon
             use(xlink:href='#icon-long-arrow-right')
@@ -255,7 +255,7 @@ main#main
             | let's do our best.
           p
             | Lessening the burden we pose to our beloved planet one walk, bike ride, carpool, or public transit ride at a time.
-          a.arrow-link(href='http://9b903281.ngrok.io/login')
+          a.arrow-link(href='http://localhost:3000/login')
             | Login or Sign Up
             svg.icon-long-arrow-right.icon
               use(xlink:href='#icon-long-arrow-right')
@@ -296,4 +296,4 @@ footer
 script(defer='defer' src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js')
 script(defer='defer' src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js')
 script(defer='defer' src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js')
-script(type='text/javascript' src='http://9b903281.ngrok.io/js/main.bundle.js?16b0249883a0043e1470' defer='defer')
+script(type='text/javascript' src='http://localhost:3000/js/main.bundle.js?16b0249883a0043e1470' defer='defer')

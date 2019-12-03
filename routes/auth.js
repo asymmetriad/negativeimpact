@@ -40,7 +40,7 @@ router.get('/logout', (req, res) => {
   //if (port !== undefined && port !== 80 && port !== 443) {
   //  returnTo += ':' + port;
   //}
-  var returnTo = 'http://9b903281.ngrok.io/';
+  var returnTo = 'http://localhost:3000/';
   var logoutURL = new url.URL(
     util.format('https://%s/v2/logout', process.env.AUTH0_DOMAIN)
   );
