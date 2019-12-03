@@ -28,6 +28,16 @@ type this in to install the dependencies locally.
 npm install
 ```
 
+Create a file called .env and do not check it into git.
+Type in something like this:
+
+```
+AUTH0_CLIENT_ID=YOUR_CLIENT_ID
+AUTH0_DOMAIN=localhost:3000
+AUTH0_CLIENT_SECRET=YOUR_CLIENT_SECRET
+CUST_SECRET='veryrandomsecret'
+```
+
 Now in the same directory type this in to launch the server:
 
 ```
