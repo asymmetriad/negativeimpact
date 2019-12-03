@@ -1657,13 +1657,13 @@ main {
 }
 
 body {
-  background-image: url(http://9b903281.ngrok.io/image/blur_pollution.png);
+  background-image: url(http://localhost:3000/image/blur_pollution.png);
   background-size: cover;
   background-repeat: no-repeat;
   }
 
 .old-car {
-  background-image: url(http://9b903281.ngrok.io/image/old-car.jpg);
+  background-image: url(http://localhost:3000/image/old-car.jpg);
   background-position-y: center;
   background-position-x: 35%;
   height: 150%
@@ -1745,15 +1745,15 @@ footer {
 }
 
 .sm-img {
-  background-image: url(http://9b903281.ngrok.io/image/photographer.jpg)
+  background-image: url(http://localhost:3000/image/photographer.jpg)
 }
 
 .sweater-img {
-  background-image: url(http://9b903281.ngrok.io/image/sweater.jpg)
+  background-image: url(http://localhost:3000/image/sweater.jpg)
 }
 
 .lg-img {
-  background-image: url(http://9b903281.ngrok.io/image/sunny-winter.jpg)
+  background-image: url(http://localhost:3000/image/sunny-winter.jpg)
 }
 
 .colorful-grid .wrap-text {
