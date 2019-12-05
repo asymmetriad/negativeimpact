@@ -1,5 +1,4 @@
 const express = require('express');
-const mustache = require('mustache-express');
 const bodyParser = require('body-parser');
 let session = require('express-session');
 // Load Passport
@@ -25,7 +24,7 @@ app.use(express.static('public'));
 app.use("/node_modules/jquery/dist/", express.static('./node_modules/jquery/dist/'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.engine('mustache', mustache());
+
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');
 
