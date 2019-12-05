@@ -19,7 +19,7 @@ const port = 3000;
 dotenv.config();
 
 // static load public folder
-app.use(express.static('public'));
+app.use("/public",express.static('public'));
 
 // Loads jQuery as a static file, since it runs on the frontend.
 app.use("/node_modules/jquery/dist/", express.static('./node_modules/jquery/dist/'));
