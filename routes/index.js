@@ -8,6 +8,7 @@ router.get('/', function (req, res, next) {
   res.render('index.pug', { title: 'Negative Imapact' });
 });
 
+
 //router.post('/form', (req,res,next) => {
 //    let user_data = {
 //        distance: req.body.distance,

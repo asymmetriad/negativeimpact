@@ -52,7 +52,11 @@ router.post('/users/fsignup',secured(), function (req, res, next){
 });
 
 router.get('/new_trip',secured(), function (req, res, next) {
+  res.render('newtrip.pug', {title:'New Trip'});
+});
 
+router.get('/past_trips',secured(), function (req, res, next) {
+  res.render('pasttrips.pug', {title:'Past Trip'});
 });
 
 module.exports = router;
