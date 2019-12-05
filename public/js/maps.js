@@ -234,15 +234,13 @@ function get_all_routes(platform,startlatlong,stoplatlong) {
 
 //SUCCESS!!! (Test of ability to geocode addresses and get route)
 var platform = here_session();
+var strtaddrss = document.getElementById("startaddr");
+var stpaddrss = document.getElementById("stopaddr");
 //geocode(platform,'200 Vesey St, New York, NY 10281',start);
-startaddress = '200 Vesey St, New York, NY 10281';
-stopaddress = '55 E 84th St, New York, NY 10028';
+startaddress = strtaddrss.innerHTML;
+stopaddress = stpaddrss.innerHTML;
 geocode(platform,startaddress,start);
 geocode(platform,stopaddress,stop);
-var strtaddrss = document.getElementById("startaddr");
-strtaddrss.innerHTML = startaddress;
-var stpaddrss = document.getElementById("stopaddr");
-stpaddrss.innerHTML = stopaddress;
 setTimeout(function () {
   document.getElementById("start").innerHTML = startlatlong;
   document.getElementById("stop").innerHTML = stoplatlong;

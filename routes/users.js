@@ -37,7 +37,7 @@ router.get('/user', secured(), function (req, res, next) {
 });
 
 router.get('/user/continue',secured(), function (req, res, next) {
-  res.render('continue.pug', {title:'Finish Signing Up'});
+  res.render('continue.pug');
 });
 
 router.post('/users/fsignup',secured(), function (req, res, next){
@@ -51,8 +51,24 @@ router.post('/users/fsignup',secured(), function (req, res, next){
   res.redirect('/user');
 });
 
-router.get('/new_trip',secured(), function (req, res, next) {
+router.get('/newtrip',secured(), function (req, res, next) {
+  res.render('newtrip.pug');
+});
 
+router.post('/tripdetails',secured(),function(req,res,next){
+
+});
+
+router.get('/finalizetrip',secured(),function(req,res,next){
+  res.render('finalize.pug');
+});
+
+router.post('/savetrip',secured(),function(req,res,next){
+
+});
+
+router.get('/viewtrip',secured(),function(req,res,next){
+  res.render('viewtrip.pug');
 });
 
 module.exports = router;
