@@ -9,11 +9,11 @@ router.get('/', function (req, res, next) {
 });
 
 
-//router.post('/form', (req,res,next) => {
-//    let user_data = {
-//        distance: req.body.distance,
-//        travel_type: req.body.traveltype
-//    };
-//});
+router.post('/form', (req,res,next) => {
+   let user_data = {
+       distance: req.body.distance,
+       travel_type: req.body.traveltype
+   };
+});
 
 module.exports = router;
