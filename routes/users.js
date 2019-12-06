@@ -62,24 +62,24 @@ router.get('/tripdetails',secured(),function(req,res,next){
 
 router.get('/savetrip',secured(),function(req,res,next){
   const { _raw, _json, ...userProfile } = req.user;
-  console.log(req.user);
-  res.redirect('/user');
-});
-
-router.get('/viewtrips',secured(),function(req,res,next){
-  find_user(userProfile.user_id,function(error,user){
+  var User = user.user;
+  var find_user = user.find_user;
+  var Trip = trip.trip;
+  const addtrip = user.addusertrip;
+  find_user(userProfile.user_id,function(error,useroo){
     if (error) {
       console.log(error);
     }
-    find_trips(user._id,function(error1,trips){
-      if(error1) {
-        console.log(error1);
-      }
-      res.render('viewtrips.pug', {
-        user: user,
-        trips: trips
-      });
-    });
+    var tripOb = new Trip();
+    tripOb.start_addr = req.query.startadd;
+    tripOb.end_addr = req.query.stopadd;
+    tripOb.user = useroo._id;
+    tripOb.method = req.query.travel;
+    tripOb.pollution = req.query.poll;
+    tripOb.save();
+    console.log(useroo);
+    addtrip(useroo,tripOb._id,tripOb.pollution);
+    res.redirect('/user');
   });
 });
 
