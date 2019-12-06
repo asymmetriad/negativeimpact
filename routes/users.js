@@ -43,10 +43,10 @@ router.get('/user/continue',secured(), function (req, res, next) {
 router.post('/users/fsignup',secured(), function (req, res, next){
   const { _raw, _json, ...userProfile } = req.user;
   User = user.user;
+  console.log(req.body);
   var initiate = new User(req.body);
   initiate.auth0_id = userProfile.user_id;
   initiate.pollution = 0;
-  initiate.distance = 0;
   initiate.save();
   res.redirect('/user');
 });
@@ -55,20 +55,36 @@ router.get('/newtrip',secured(), function (req, res, next) {
   res.render('newtrip.pug');
 });
 
-router.post('/tripdetails',secured(),function(req,res,next){
-
+router.get('/tripdetails',secured(),function(req,res,next){
+  const startstop = req.query;
+  res.render('choose.pug', {startstop:startstop});
 });
 
-router.get('/finalizetrip',secured(),function(req,res,next){
-  res.render('finalize.pug');
+router.get('/savetrip',secured(),function(req,res,next){
+  const { _raw, _json, ...userProfile } = req.user;
+  console.log(req.user);
+  res.redirect('/user');
 });
 
-router.post('/savetrip',secured(),function(req,res,next){
-
+router.get('/viewtrips',secured(),function(req,res,next){
+  find_user(userProfile.user_id,function(error,user){
+    if (error) {
+      console.log(error);
+    }
+    find_trips(user._id,function(error1,trips){
+      if(error1) {
+        console.log(error1);
+      }
+      res.render('viewtrips.pug', {
+        user: user,
+        trips: trips
+      });
+    });
+  });
 });
 
-router.get('/viewtrip',secured(),function(req,res,next){
-  res.render('viewtrip.pug');
+router.post('/deletetrip/:tripid',secured(),function(req,res,next){
+
 });
 
 module.exports = router;

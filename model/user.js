@@ -43,3 +43,5 @@ function removeTripFromUser (_id,trip_id,distance,pollution) {
 }
 
 module.exports.find_user = retrieveUser;
+module.exports.addusertrip = addTripToUser;
+module.exports.removeusertrip = removeTripFromUser;

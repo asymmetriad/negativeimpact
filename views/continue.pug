@@ -7,7 +7,7 @@ block content
       form(action = "/users/fsignup", method = "POST",id="stateForm")
         div
           h3.logo As one last step, please enter your state:
-          span.custom-dropdown.big
+          span.custom-dropdown
             select(name="state",form="stateForm")
               option(value='AL') Alabama
               option(value='AK') Alaska
@@ -61,5 +61,5 @@ block content
               option(value='WI') Wisconsin
               option(value='WY') Wyoming
         br
-        span.big
+        span
           button(type = "submit") Begin Minimizing Your Negative Impact

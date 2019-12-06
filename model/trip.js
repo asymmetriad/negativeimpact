@@ -8,7 +8,6 @@ const tripSchema = new Schema({
       ref: 'User'},
     start_addr: {type:String},
     end_addr: {type:String},
-    distance: {type:Number},
     method: {type:String},
     pollution: {type:Number}
 }, {

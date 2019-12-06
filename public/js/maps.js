@@ -1,25 +1,25 @@
 function here_session() {
-  let platform = new H.service.Platform({'apikey' : 'oZzBclPdXKF_feQvvI01Td179ZYGY5WrTnxHLDrMQig'
+  var platform = new H.service.Platform({'apikey' : 'oZzBclPdXKF_feQvvI01Td179ZYGY5WrTnxHLDrMQig'
   });
-    return platform;
+  return platform;
 }
 
 function start(result) {
-  let latitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Latitude']);
-  let longitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Longitude']);
-  let latlong = latitude.concat(',',longitude);
+  var latitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Latitude']);
+  var longitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Longitude']);
+  var latlong = latitude.concat(',',longitude);
   window.startlatlong=latlong;
 }
 
 function stop(result) {
-  let latitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Latitude']);
-  let longitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Longitude']);
-  let latlong = latitude.concat(',',longitude);
+  var latitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Latitude']);
+  var longitude = JSON.stringify(result['Response']['View'][0]['Result'][0]['Location']['DisplayPosition']['Longitude']);
+  var latlong = latitude.concat(',',longitude);
   window.stoplatlong=latlong;
 }
 
 function geocode(platform,address,callback) {
-  let geocoder = platform.getGeocodingService(),
+  var geocoder = platform.getGeocodingService(),
     parameters = {
       searchtext: address,
       gen: '9'};
@@ -34,11 +34,11 @@ function geocode(platform,address,callback) {
 
 function calcpubpollrate(line) {
   //console.log(line['type']);
-  let bus = ['busPublic','busTouristic','busIntercity','busExpress'];
-  let commrail = ['railMetro', 'railMetroRegional','railRegional'];
-  let icrail = ['trainRegional', 'trainIntercity', 'trainHighSpeed'];
-  let literail = ['railLight','monoRail'];
-  let ferry = ['water'];
+  var bus = ['busPublic','busTouristic','busIntercity','busExpress']
+  var commrail = ['railMetro', 'railMetroRegional','railRegional'];
+  var icrail = ['trainRegional', 'trainIntercity', 'trainHighSpeed'];
+  var literail = ['railLight','monoRail'];
+  var ferry = ['water'];
   if (bus.indexOf(line['type'])>=0){
     return 283.2;
   } else if (commrail.indexOf(line['type'])>=0){
@@ -53,7 +53,7 @@ function calcpubpollrate(line) {
 }
 
 function get_bike_route(platform,w0,w1) {
-  let router = platform.getRoutingService(),
+  var router = platform.getRoutingService(),
     parameters = {
       waypoint0: w0,
       waypoint1: w1,
@@ -66,18 +66,18 @@ function get_bike_route(platform,w0,w1) {
   //need to add pollution calculation for potential ferry rides
   router.calculateRoute(parameters,
     function (result) {
-      for (let man in result['response']['route'][0]['leg'][0]['maneuver']) {
+      for (var man in result['response']['route'][0]['leg'][0]['maneuver']) {
         if(result['response']['route'][0]['leg'][0]['maneuver'][man]['action']==='ferry'){
-          let distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
+          var distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
           //console.log(distcov*0.00056818181);
           window.biketranspoll = window.biketranspoll + 863.8*distcov*0.00056818181;
         }
-        let directions = document.getElementById("bikedirections");
-        let maneuver = document.createElement("DIV");
+        var directions = document.getElementById("bikedirections");
+        var maneuver = document.createElement("DIV");
         maneuver.innerHTML = result['response']['route'][0]['leg'][0]['maneuver'][man]['instruction'];
         directions.appendChild(maneuver);
       }
-      let bkplltn = document.getElementById("bikepoll");
+      var bkplltn = document.getElementById("bikepoll");
       bkplltn.innerHTML = window.biketranspoll;
     }, function (error) {
 
@@ -85,7 +85,7 @@ function get_bike_route(platform,w0,w1) {
 }
 
 function get_car_route(platform,w0,w1) {
-  let router = platform.getRoutingService(),
+  var router = platform.getRoutingService(),
     parameters = {
       waypoint0: w0,
       waypoint1: w1,
@@ -99,19 +99,23 @@ function get_car_route(platform,w0,w1) {
   //need to add pollution calculation for potential ferry rides
   router.calculateRoute(parameters,
     function (result) {
-      for (let man in result['response']['route'][0]['leg'][0]['maneuver']) {
-        let distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
+      for (var man in result['response']['route'][0]['leg'][0]['maneuver']) {
+        var distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
           //console.log(distcov*0.00056818181);
         window.cartranspoll = window.cartranspoll + 269.1*distcov*0.00056818181;
         window.ubertranspoll = window.ubertranspoll + 374.4*distcov*0.00056818181;
-        let directions = document.getElementById("cardirections");
-        let maneuver = document.createElement("DIV");
+        var directions = document.getElementById("cardirections");
+        var udirections = document.getElementById("uberdirections");
+        var maneuver = document.createElement("DIV");
+        var umaneuver = document.createElement("DIV");
         maneuver.innerHTML = result['response']['route'][0]['leg'][0]['maneuver'][man]['instruction'];
+        umaneuver.innerHTML = result['response']['route'][0]['leg'][0]['maneuver'][man]['instruction'];
         directions.appendChild(maneuver);
+        udirections.appendChild(umaneuver);
       }
-      let crplltn = document.getElementById("carpoll");
+      var crplltn = document.getElementById("carpoll");
       crplltn.innerHTML = window.cartranspoll;
-      let ubrplltn = document.getElementById("uberpoll");
+      var ubrplltn = document.getElementById("uberpoll");
       ubrplltn.innerHTML = window.ubertranspoll;
     }, function (error) {
 
@@ -119,7 +123,7 @@ function get_car_route(platform,w0,w1) {
 }
 
 function get_hov_route(platform,w0,w1) {
-  let router = platform.getRoutingService(),
+  var router = platform.getRoutingService(),
     parameters = {
       waypoint0: w0,
       waypoint1: w1,
@@ -132,16 +136,16 @@ function get_hov_route(platform,w0,w1) {
   //need to add pollution calculation for potential ferry rides
   router.calculateRoute(parameters,
     function (result) {
-      for (let man in result['response']['route'][0]['leg'][0]['maneuver']) {
-        let distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
+      for (var man in result['response']['route'][0]['leg'][0]['maneuver']) {
+        var distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
           //console.log(distcov*0.00056818181);
         window.hovtranspoll = window.hovtranspoll + 177.8*distcov*0.00056818181;
-        let directions = document.getElementById("hovdirections");
-        let maneuver = document.createElement("DIV");
+        var directions = document.getElementById("hovdirections");
+        var maneuver = document.createElement("DIV");
         maneuver.innerHTML = result['response']['route'][0]['leg'][0]['maneuver'][man]['instruction'];
         directions.appendChild(maneuver);
       }
-      let hvplltn = document.getElementById("hovpoll");
+      var hvplltn = document.getElementById("hovpoll");
       hvplltn.innerHTML = window.hovtranspoll;
     }, function (error) {
 
@@ -149,7 +153,7 @@ function get_hov_route(platform,w0,w1) {
 }
 
 function get_pub_transport_route(platform,w0,w1) {
-  let router = platform.getRoutingService(),
+  var router = platform.getRoutingService(),
   parameters = {
     waypoint0: w0,
     waypoint1: w1,
@@ -165,22 +169,22 @@ function get_pub_transport_route(platform,w0,w1) {
   router.calculateRoute(parameters,
   function (result) {
     const lineIds = [];
-    for (let line in result['response']['route'][0]['publicTransportLine']) {
+    for (var line in result['response']['route'][0]['publicTransportLine']) {
       lineIds.push(result['response']['route'][0]['publicTransportLine'][line]['id']);
     }
-    for (let man in result['response']['route'][0]['leg'][0]['maneuver']) {
+    for (var man in result['response']['route'][0]['leg'][0]['maneuver']) {
       if (lineIds.indexOf(result['response']['route'][0]['leg'][0]['maneuver'][man]['line'])>=0){
-        let distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
+        var distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
         //console.log(calcpubpollrate(result['response']['route'][0]['publicTransportLine'][line])*distcov*0.00056818);
         window.pubtranspoll = window.pubtranspoll + calcpubpollrate(result['response']['route'][0]['publicTransportLine'][line])*distcov*0.00056818181;
       }
     }
-    let pblcplltn = document.getElementById("pubpoll");
+    var pblcplltn = document.getElementById("pubpoll");
     pblcplltn.innerHTML = window.pubtranspoll;
-    for (let man in result['response']['route'][0]['leg'][0]['maneuver']) {
+    for (var man in result['response']['route'][0]['leg'][0]['maneuver']) {
       //console.log(JSON.stringify(result['response']['route'][0]['leg'][0]['maneuver'][man]['action']));
-      let directions = document.getElementById("pubdirections");
-      let maneuver = document.createElement("DIV");
+      var directions = document.getElementById("pubdirections");
+      var maneuver = document.createElement("DIV");
       maneuver.innerHTML = result['response']['route'][0]['leg'][0]['maneuver'][man]['instruction'];
       directions.appendChild(maneuver);
     }
@@ -193,7 +197,7 @@ function get_pub_transport_route(platform,w0,w1) {
 }
 
 function get_pedestrian_route(platform,w0,w1) {
-  let router = platform.getRoutingService(),
+  var router = platform.getRoutingService(),
     parameters = {
       waypoint0: w0,
       waypoint1: w1,
@@ -206,18 +210,18 @@ function get_pedestrian_route(platform,w0,w1) {
   //need to add pollution calculation for potential ferry rides
   router.calculateRoute(parameters,
     function (result) {
-      for (let man in result['response']['route'][0]['leg'][0]['maneuver']) {
+      for (var man in result['response']['route'][0]['leg'][0]['maneuver']) {
         if(result['response']['route'][0]['leg'][0]['maneuver'][man]['action']==='ferry'){
-          let distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
+          var distcov = result['response']['route'][0]['leg'][0]['maneuver'][man]['length'];
           //console.log(distcov*0.00056818181);
           window.pedtranspoll = window.pedtranspoll + 863.8*distcov*0.00056818181;
         }
-        let directions = document.getElementById("peddirections");
-        let maneuver = document.createElement("DIV");
+        var directions = document.getElementById("peddirections");
+        var maneuver = document.createElement("DIV");
         maneuver.innerHTML = result['response']['route'][0]['leg'][0]['maneuver'][man]['instruction'];
         directions.appendChild(maneuver);
       }
-      let pdplltn = document.getElementById("pedpoll");
+      var pdplltn = document.getElementById("pedpoll");
       pdplltn.innerHTML = window.pedtranspoll;
     }, function (error) {
 
@@ -225,24 +229,90 @@ function get_pedestrian_route(platform,w0,w1) {
 }
 
 function get_all_routes(platform,startlatlong,stoplatlong) {
-  let publicTransportRoute = get_pub_transport_route(platform,startlatlong,stoplatlong);
-  let pedTranportRoute = get_pedestrian_route(platform,startlatlong,stoplatlong);
-  let carRoute = get_car_route(platform,startlatlong,stoplatlong);
-  let hovRoute = get_hov_route(platform,startlatlong,stoplatlong);
-  let bikeRoute = get_bike_route(platform,startlatlong,stoplatlong);
+  var publicTransportRoute = get_pub_transport_route(platform,startlatlong,stoplatlong);
+  var pedTranportRoute = get_pedestrian_route(platform,startlatlong,stoplatlong);
+  var carRoute = get_car_route(platform,startlatlong,stoplatlong);
+  var hovRoute = get_hov_route(platform,startlatlong,stoplatlong);
+  var bikeRoute = get_bike_route(platform,startlatlong,stoplatlong);
 }
 
-//SUCCESS!!! (Test of ability to geocode addresses and get route)
-let platform = here_session();
-let strtaddrss = document.getElementById("startaddr");
-let stpaddrss = document.getElementById("stopaddr");
+function readyFn( jQuery ) {
+   document.getElementById("travelForm").reset();
+}
+
+$( window ).on( "load", readyFn );
+
+$('#travelType').change(function() {
+    opt = $(this).val();
+    if (opt=="ped") {
+      $(".pollwalk").removeClass('d-none');
+      $(".pollbike").addClass('d-none');
+      $(".pollcar").addClass('d-none');
+      $(".polluber").addClass('d-none');
+      $(".pollhov").addClass('d-none');
+      $(".pollpub").addClass('d-none');
+      $("#pollute").val(window.pedtranspoll);
+    }else if (opt == "bike") {
+      $(".pollwalk").addClass('d-none');
+      $(".pollbike").removeClass('d-none');
+      $(".pollcar").addClass('d-none');
+      $(".polluber").addClass('d-none');
+      $(".pollhov").addClass('d-none');
+      $(".pollpub").addClass('d-none');
+      $("#pollute").val(window.biketranspoll);
+    }else if (opt == "car") {
+      $(".pollwalk").addClass('d-none');
+      $(".pollbike").addClass('d-none');
+      $(".pollcar").removeClass('d-none');
+      $(".polluber").addClass('d-none');
+      $(".pollhov").addClass('d-none');
+      $(".pollpub").addClass('d-none');
+      $("#pollute").val(window.cartranspoll);
+    }else if (opt == "uber") {
+      $(".pollwalk").addClass('d-none');
+      $(".pollbike").addClass('d-none');
+      $(".pollcar").addClass('d-none');
+      $(".polluber").removeClass('d-none');
+      $(".pollhov").addClass('d-none');
+      $(".pollpub").addClass('d-none');
+      $("#pollute").val(window.ubertranspoll);
+    }else if (opt == "hov") {
+      $(".pollwalk").addClass('d-none');
+      $(".pollbike").addClass('d-none');
+      $(".pollcar").addClass('d-none');
+      $(".polluber").addClass('d-none');
+      $(".pollhov").removeClass('d-none');
+      $(".pollpub").addClass('d-none');
+      $("#pollute").val(window.hovtranspoll);
+    }else if (opt == "pub") {
+      $(".pollwalk").addClass('d-none');
+      $(".pollbike").addClass('d-none');
+      $(".pollcar").addClass('d-none');
+      $(".polluber").addClass('d-none');
+      $(".pollhov").addClass('d-none');
+      $(".pollpub").removeClass('d-none');
+      $("#pollute").val(window.pubtranspoll);
+    }
+});
+
+var platform = here_session();
+var strtaddrss = document.getElementById("startaddr");
+var stpaddrss = document.getElementById("stopaddr");
+//strtaddrss.innerHTML = "151 Infirmary Way, Amherst, MA 01003";
+//stpaddrss.innerHTML = "200 College Steet, Amherst, MA 01002";
 //geocode(platform,'200 Vesey St, New York, NY 10281',start);
-startaddress = strtaddrss.innerHTML;
-stopaddress = stpaddrss.innerHTML;
-geocode(platform,startaddress,start);
-geocode(platform,stopaddress,stop);
-setTimeout(function () {
-  document.getElementById("start").innerHTML = startlatlong;
-  document.getElementById("stop").innerHTML = stoplatlong;
-  get_all_routes(platform,startlatlong,stoplatlong);
-},1000);
+if (strtaddrss !== undefined && strtaddrss !== null && stpaddrss !== undefined && stpaddrss !== null) {
+  startaddress = strtaddrss.innerHTML;
+  stopaddress = stpaddrss.innerHTML;
+  geocode(platform,startaddress,start);
+  geocode(platform,stopaddress,stop);
+  setTimeout(function () {
+    document.getElementById("start").innerHTML = window.startlatlong;
+    document.getElementById("stop").innerHTML = window.stoplatlong;
+    get_all_routes(platform,startlatlong,stoplatlong);
+  },300);
+  var startadder = document.getElementById("startadder");
+  var stopadder = document.getElementById("stopadder");
+  startadder.value = startaddress;
+  stopadder.value = stopaddress;
+}

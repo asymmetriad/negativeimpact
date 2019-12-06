@@ -6,7 +6,6 @@ head
   title Negative Impact
   script(src='https://js.api.here.com/v3/3.1/mapsjs-core.js' type='text/javascript' charset='utf-8')
   script(src='https://js.api.here.com/v3/3.1/mapsjs-service.js' type='text/javascript' charset='utf-8')
-  script(type='text/javascript' src='http://localhost:3000/js/maps.min.js' defer='defer')
   style(type='text/css').
     @font-face {
     font-family: 'Open Sans';
@@ -188,34 +187,24 @@ head
   link(href='https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet')
   script.
     !function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);
-svg(xmlns='http://www.w3.org/2000/svg' style='display:none')
-  defs
-    symbol#icon-check(viewbox='0 0 24 24')
-      path(d='M9 16.172L19.594 5.578 21 6.984l-12 12-5.578-5.578L4.828 12z')
-    symbol#icon-heart-o(viewbox='0 0 28 28')
-      path(d='M26 9.312c0-4.391-2.969-5.313-5.469-5.313-2.328 0-4.953 2.516-5.766 3.484-.375.453-1.156.453-1.531 0-.812-.969-3.437-3.484-5.766-3.484-2.5 0-5.469.922-5.469 5.313 0 2.859 2.891 5.516 2.922 5.547l9.078 8.75 9.063-8.734C23.109 14.828 26 12.172 26 9.312zm2 0c0 3.75-3.437 6.891-3.578 7.031l-9.734 9.375c-.187.187-.438.281-.688.281s-.5-.094-.688-.281l-9.75-9.406c-.125-.109-3.563-3.25-3.563-7 0-4.578 2.797-7.313 7.469-7.313 2.734 0 5.297 2.156 6.531 3.375 1.234-1.219 3.797-3.375 6.531-3.375 4.672 0 7.469 2.734 7.469 7.313z')
-    symbol#icon-long-arrow-right(viewbox='0 0 27 28')
-      path(d='M27 13.953c0 .141-.063.281-.156.375l-6 5.531c-.156.141-.359.172-.547.094-.172-.078-.297-.25-.297-.453V16H.5c-.281 0-.5-.219-.5-.5v-3c0-.281.219-.5.5-.5H20V8.5c0-.203.109-.375.297-.453s.391-.047.547.078l6 5.469c.094.094.156.219.156.359z')
-body
-  header
-    .container
-      .row
-        .col-6
-          a(href='#Home' style='text-decoration: none;')
-            h3.logo(style='text-decoration: none;') Negative Impact
-        .col-6
-          ul.nav
-            if locals.user
-              li.nav-items
-                a(href="/user") Profile
-              li.nav-items
-                a(href="/logout") Log Out
-            else
-              li.nav-items
-                a(href="/login") Log In
-      .row.page
-        .col-12
-          block content
+  .container
+    .row
+      .col-6
+        a(href='/user' style='text-decoration: none;')
+          h3.logo(style='text-decoration: none;') Negative Impact
+      .col-6
+        ul.nav
+          if locals.user
+            li.nav-items
+              a(href="/user") Profile
+            li.nav-items
+              a(href="/logout") Log Out
+          else
+            li.nav-items
+              a(href="/login") Log In
+    .row.page
+      .col-12
+        block content
 
 footer
   script(defer='defer' src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js')
@@ -223,3 +212,5 @@ footer
   script(defer='defer' src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js')
   script(defer='defer' src='https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js')
   script(type='text/javascript' src='http://localhost:3000/js/main.bundle.js?16b0249883a0043e1470' defer='defer')
+  script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+  script(type='text/javascript' src='http://localhost:3000/js/maps.min.js' defer='defer')
