@@ -60,7 +60,7 @@ router.get('/tripdetails',secured(),function(req,res,next){
   res.render('choose.pug', {startstop:startstop});
 });
 
-router.get('/savetrip',secured(),function(req,res,next){
+router.post('/savetrip',secured(),function(req,res,next){
   const { _raw, _json, ...userProfile } = req.user;
   var User = user.user;
   var find_user = user.find_user;
