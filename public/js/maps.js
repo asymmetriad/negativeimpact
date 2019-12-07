@@ -82,6 +82,7 @@ function get_bike_route(platform,w0,w1) {
     }, function (error) {
 
     });
+    trip_duration(w0,w1,'BICYCLING');
 }
 
 function get_car_route(platform,w0,w1) {
@@ -120,6 +121,8 @@ function get_car_route(platform,w0,w1) {
     }, function (error) {
 
     });
+    // no need to call trip_duration,
+    // because get_hov_route call already
 }
 
 function get_hov_route(platform,w0,w1) {
@@ -150,6 +153,7 @@ function get_hov_route(platform,w0,w1) {
     }, function (error) {
 
     });
+    trip_duration(w0,w1,'DRIVING');
 }
 
 function get_pub_transport_route(platform,w0,w1) {
@@ -194,6 +198,7 @@ function get_pub_transport_route(platform,w0,w1) {
   }, function (error) {
 
   });
+  trip_duration(w0,w1,'TRANSIT');
 }
 
 function get_pedestrian_route(platform,w0,w1) {
@@ -226,6 +231,43 @@ function get_pedestrian_route(platform,w0,w1) {
     }, function (error) {
 
     });
+    trip_duration(w0,w1,'WALKING');
+}
+
+function trip_duration(startlatlong,stoplatlong,travelmode){
+  var service = new google.maps.DistanceMatrixService();
+  service.getDistanceMatrix(
+  {
+    origins: [startlatlong],
+    destinations: [stoplatlong],
+    travelMode: travelmode,
+  }, function(response,status){ // callback function
+    if(status='OK'){
+      var duration = response.rows[0].elements[0].duration.text
+
+      if(travelmode == "WALKING"){
+        var time = document.getElementById("walktime");
+        time.innerHTML = window.walktime = duration;
+        var walktime = document.getElementById("duration");
+      }
+      else if(travelmode == "BICYCLING"){
+        var time = document.getElementById("biketime");
+        time.innerHTML = window.biketime = duration;
+      }
+      else if(travelmode == "DRIVING"){
+        var cartime = document.getElementById("cartime");
+        var ubertime = document.getElementById("ubertime");
+        var hovtime = document.getElementById("hovtime");
+        hovtime.innerHTML = window.hovtime = duration;
+        ubertime.innerHTML = window.ubertime = duration;
+        cartime.innerHTML = window.cartime = duration;
+      }
+      else if(travelmode == "TRANSIT"){
+        var time = document.getElementById("transtime");
+        time.innerHTML = window.transtime = duration;
+      }
+    }
+  });
 }
 
 function get_all_routes(platform,startlatlong,stoplatlong) {
@@ -252,6 +294,7 @@ $('#travelType').change(function() {
       $(".pollhov").addClass('d-none');
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.pedtranspoll);
+      $("#duration").val(window.walktime);
     }else if (opt == "bike") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").removeClass('d-none');
@@ -260,6 +303,7 @@ $('#travelType').change(function() {
       $(".pollhov").addClass('d-none');
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.biketranspoll);
+      $("#duration").val(window.biketime);
     }else if (opt == "car") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -268,6 +312,7 @@ $('#travelType').change(function() {
       $(".pollhov").addClass('d-none');
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.cartranspoll);
+      $("#duration").val(window.cartime);
     }else if (opt == "uber") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -276,6 +321,7 @@ $('#travelType').change(function() {
       $(".pollhov").addClass('d-none');
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.ubertranspoll);
+      $("#duration").val(window.ubertime);
     }else if (opt == "hov") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -284,6 +330,7 @@ $('#travelType').change(function() {
       $(".pollhov").removeClass('d-none');
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.hovtranspoll);
+      $("#duration").val(window.hovtime);
     }else if (opt == "pub") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -292,6 +339,7 @@ $('#travelType').change(function() {
       $(".pollhov").addClass('d-none');
       $(".pollpub").removeClass('d-none');
       $("#pollute").val(window.pubtranspoll);
+      $("#duration").val(window.transtime);
     }
 });
 
