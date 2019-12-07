@@ -37,6 +37,7 @@ function retrieveUser (auth0_id, callback) {
 function addTripToUser (_id, trip_id, pollution) {
   var User = db.model('User',userSchema);
   User.updateOne({_id:_id},{$push:{history:trip_id},$inc:{pollution:pollution}});
+  console.log("aaaaaa");
 }
 
 function removeTripFromUser (_id,trip_id,distance,pollution) {
