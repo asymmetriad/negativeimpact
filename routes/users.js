@@ -76,6 +76,7 @@ router.get('/savetrip',secured(),function(req,res,next){
     tripOb.user = useroo._id;
     tripOb.method = req.query.travel;
     tripOb.pollution = req.query.poll;
+    tripOb.duration = req.query.duration;
     tripOb.save();
     console.log(useroo);
     addtrip(useroo,tripOb._id,tripOb.pollution);
