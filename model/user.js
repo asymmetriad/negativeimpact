@@ -34,14 +34,18 @@ function retrieveUser (auth0_id, callback) {
   });
 }
 
-function addTripToUser (_id, trip_id, pollution) {
-  var User = db.model('User',userSchema);
-  User.updateOne({_id:_id},{$push:{history:trip_id},$inc:{pollution:pollution}});
+function callItBack () {
+  console.log("Trip sucessfully added to user history");
 }
 
-function removeTripFromUser (_id,trip_id,distance,pollution) {
+function addTripToUser (user_id, trip_id, pollution) {
   var User = db.model('User',userSchema);
-  User.updateOne({_id:_id},{$pull:{history:trip_id},$inc:{pollution:-(pollution)}});
+  User.findByIdAndUpdate(user_id,{$push:{history:trip_id},$inc:{pollution:pollution}},callItBack);
+}
+
+function removeTripFromUser (user_id,trip_id,distance,pollution) {
+  var User = db.model('User',userSchema);
+  User.findByIdAndUpdate(user_id,{$pull:{history:trip_id},$inc:{pollution:-(pollution)}},callItBack);
 }
 
 module.exports.find_user = retrieveUser;
