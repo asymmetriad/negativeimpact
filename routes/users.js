@@ -78,8 +78,8 @@ router.get('/savetrip',secured(),function(req,res,next){
     tripOb.pollution = req.query.poll;
     tripOb.duration = req.query.duration;
     tripOb.save();
+    user.addusertrip(useroo._id,tripOb._id,tripOb.pollution);
     console.log(useroo);
-    addtrip(useroo,tripOb._id,tripOb.pollution);
     res.redirect('/user');
   });
 });
