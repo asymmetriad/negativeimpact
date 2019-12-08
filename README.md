@@ -19,6 +19,7 @@ You need the latest stable versions of these programs:
 * MongoDB
 * npm
 * node
+
 In addition, you need access to the auth0 API and the HERE API.
 
 # Instructions
