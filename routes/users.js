@@ -55,6 +55,14 @@ router.get('/newtrip',secured(), function (req, res, next) {
   res.render('newtrip.pug');
 });
 
+router.get('/firehose',secured(), function (req, res, next) {
+  let Users = db.model('User',db.userSchema);
+    Users.find({}, 'state pollution distance createdAt updatedAt -_id', function(err, user){
+        console.log({user: user});
+        res.render('firehose.pug', {user: user});
+  });
+});
+
 router.get('/tripdetails',secured(),function(req,res,next){
   const startstop = req.query;
   res.render('choose.pug', {startstop:startstop});
