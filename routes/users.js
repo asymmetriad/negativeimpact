@@ -58,7 +58,6 @@ router.get('/newtrip',secured(), function (req, res, next) {
 router.get('/firehose',secured(), function (req, res, next) {
   let Users = db.model('User',db.userSchema);
     Users.find({}, 'state pollution distance createdAt updatedAt -_id', function(err, user){
-        console.log({user: user});
         res.render('firehose.pug', {user: user});
   });
 });
