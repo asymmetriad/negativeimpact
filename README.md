@@ -19,6 +19,7 @@ You need the latest stable versions of these programs:
 * MongoDB
 * npm
 * node
+In addition, you need access to the auth0 API and the HERE API.
 
 # Instructions
 Open up a terminal in the root directory of the project and
@@ -41,7 +42,7 @@ CUST_SECRET='veryrandomsecret'
 Now in the same directory type this in to launch the server:
 
 ```
-node server.js
+npm run devStart
 ```
 
 Now, open up a web browser and enter http://localhost:3000 in the URL bar.
