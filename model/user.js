@@ -40,7 +40,9 @@ function callItBack () {
 
 function addTripToUser (user_id, trip_id, pollution , distance) {
   var User = db.model('User',userSchema);
-  User.findByIdAndUpdate(user_id,{$push:{history:trip_id},$inc:{pollution:pollution},$inc:{distance:distance}},callItBack);
+  console.log(pollution);
+  User.findByIdAndUpdate(user_id,{$push:{history:trip_id},$inc:{pollution:pollution}},callItBack);
+  User.findByIdAndUpdate(user_id,{$inc:{distance:distance}},callItBack);
 }
 
 function removeTripFromUser (user_id,trip_id,distance,pollution, distance) {
