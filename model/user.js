@@ -38,14 +38,14 @@ function callItBack () {
   console.log("Trip sucessfully added to user history");
 }
 
-function addTripToUser (user_id, trip_id, pollution , distance) {
+function addTripToUser (user_id, trip_id, pollution) {
   var User = db.model('User',userSchema);
-  User.findByIdAndUpdate(user_id,{$push:{history:trip_id},$inc:{pollution:pollution},$inc:{distance:distance}},callItBack);
+  User.findByIdAndUpdate(user_id,{$push:{history:trip_id},$inc:{pollution:pollution}},callItBack);
 }
 
-function removeTripFromUser (user_id,trip_id,distance,pollution, distance) {
+function removeTripFromUser (user_id,trip_id,distance,pollution) {
   var User = db.model('User',userSchema);
-  User.findByIdAndUpdate(user_id,{$pull:{history:trip_id},$inc:{pollution:-(pollution)},$inc:{distance:-(distance)}},callItBack);
+  User.findByIdAndUpdate(user_id,{$pull:{history:trip_id},$inc:{pollution:-(pollution)}},callItBack);
 }
 
 module.exports.find_user = retrieveUser;
