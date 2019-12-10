@@ -76,9 +76,12 @@ router.get('/savetrip',secured(),function(req,res,next){
     tripOb.user = useroo._id;
     tripOb.method = req.query.travel;
     tripOb.pollution = req.query.poll;
+    tripOb.duration = req.query.duration;
+    tripOb.distance = req.query.distance;
     tripOb.save();
+    console.log(tripOb.pollution);
     console.log(useroo);
-    addtrip(useroo._id,tripOb._id,tripOb.pollution);
+    addtrip(useroo._id,tripOb._id,tripOb.pollution,req.query.distancevalue);
     res.redirect('/user');
   });
 });
