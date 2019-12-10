@@ -27,11 +27,17 @@ block content
           br
           code Trip Duration: #{trip.duration}
           br
-          code Trip Distance: #{(trip.distance).toFixed(2) + " miles"}
+          if trip.distance
+                  code Trip Distance: #{(trip.distance).toFixed(2) + " miles"}
+          else
+                  code Trip Distance: #{(trip.distance) + " miles"}
           br
           code Trip Method: #{trip.method}
           br
-          code Resultant CO2: #{(trip.pollution).toFixed(2) + " g"}
+          if trip.pollution
+                  code Resultant CO2: #{(trip.pollution).toFixed(2) + " g"}
+          else
+                  code Resultant CO2: #{(trip.pollution) + " g"}
           br
           form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
             input(type='submit' class="delbutton btn btn-danger" value='Delete')
