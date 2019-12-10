@@ -53,6 +53,7 @@ function calcpubpollrate(line) {
 }
 
 function get_bike_route(platform,w0,w1) {
+  trip_duration_distance(w0,w1,'BICYCLING');
   var router = platform.getRoutingService(),
     parameters = {
       waypoint0: w0,
@@ -82,7 +83,6 @@ function get_bike_route(platform,w0,w1) {
     }, function (error) {
 
     });
-    trip_duration(w0,w1,'BICYCLING');
 }
 
 function get_car_route(platform,w0,w1) {
@@ -126,6 +126,7 @@ function get_car_route(platform,w0,w1) {
 }
 
 function get_hov_route(platform,w0,w1) {
+  trip_duration_distance(w0,w1,'DRIVING');
   var router = platform.getRoutingService(),
     parameters = {
       waypoint0: w0,
@@ -153,10 +154,10 @@ function get_hov_route(platform,w0,w1) {
     }, function (error) {
 
     });
-    trip_duration(w0,w1,'DRIVING');
 }
 
 function get_pub_transport_route(platform,w0,w1) {
+  trip_duration_distance(w0,w1,'TRANSIT');
   var router = platform.getRoutingService(),
   parameters = {
     waypoint0: w0,
@@ -198,10 +199,10 @@ function get_pub_transport_route(platform,w0,w1) {
   }, function (error) {
 
   });
-  trip_duration(w0,w1,'TRANSIT');
 }
 
 function get_pedestrian_route(platform,w0,w1) {
+  trip_duration_distance(w0,w1,'WALKING');
   var router = platform.getRoutingService(),
     parameters = {
       waypoint0: w0,
@@ -231,10 +232,9 @@ function get_pedestrian_route(platform,w0,w1) {
     }, function (error) {
 
     });
-    trip_duration(w0,w1,'WALKING');
 }
 
-function trip_duration(startlatlong,stoplatlong,travelmode){
+function trip_duration_distance(startlatlong,stoplatlong,travelmode){
   var service = new google.maps.DistanceMatrixService();
   service.getDistanceMatrix(
   {
@@ -242,17 +242,27 @@ function trip_duration(startlatlong,stoplatlong,travelmode){
     destinations: [stoplatlong],
     travelMode: travelmode,
   }, function(response,status){ // callback function
-    if(status='OK'){
-      var duration = response.rows[0].elements[0].duration.text
+    if(status='OK'){;
+      console.log(response.rows[0]);
+      console.log(response.rows[0].elements[0].distance.text);
+      var duration = response.rows[0].elements[0].duration.text;
+      var distance = response.rows[0].elements[0].distance.text;
 
       if(travelmode == "WALKING"){
         var time = document.getElementById("walktime");
         time.innerHTML = window.walktime = duration;
-        var walktime = document.getElementById("duration");
+
+        var dis = document.getElementById("walkdistance");
+        dis.innerHTML = window.walkdistance = distance;
+        $("#wdistance").val(response.rows[0].elements[0].distance.value);
       }
       else if(travelmode == "BICYCLING"){
         var time = document.getElementById("biketime");
         time.innerHTML = window.biketime = duration;
+
+        var dis = document.getElementById("bikedistance");
+        dis.innerHTML = window.bikedistance = distance;
+        $("#bdistance").val(response.rows[0].elements[0].distance.value);
       }
       else if(travelmode == "DRIVING"){
         var cartime = document.getElementById("cartime");
@@ -261,10 +271,22 @@ function trip_duration(startlatlong,stoplatlong,travelmode){
         hovtime.innerHTML = window.hovtime = duration;
         ubertime.innerHTML = window.ubertime = duration;
         cartime.innerHTML = window.cartime = duration;
+
+        var cardis = document.getElementById("cardistance");
+        var uberdis = document.getElementById("uberdistance");
+        var hovdis = document.getElementById("hovdistance");
+        cardis.innerHTML = window.cardistance = distance;
+        uberdis.innerHTML = window.uberdistance = distance;
+        hovdis.innerHTML = window.hovdistance = distance;
+        $("#cdistance").val(response.rows[0].elements[0].distance.value);
       }
       else if(travelmode == "TRANSIT"){
         var time = document.getElementById("transtime");
         time.innerHTML = window.transtime = duration;
+
+        var dis = document.getElementById("pubdistance");
+        dis.innerHTML = window.pubdistance = distance;
+        $("#pdistance").val(response.rows[0].elements[0].distance.value);
       }
     }
   });
@@ -295,6 +317,8 @@ $('#travelType').change(function() {
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.pedtranspoll);
       $("#duration").val(window.walktime);
+      $("#distancevalue").val($("#wdistance").val());
+      $("#distance").val(window.walkdistance);
     }else if (opt == "bike") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").removeClass('d-none');
@@ -304,6 +328,8 @@ $('#travelType').change(function() {
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.biketranspoll);
       $("#duration").val(window.biketime);
+      $("#distancevalue").val($("#bdistance").val());
+      $("#distance").val(window.bikedistance);
     }else if (opt == "car") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -313,6 +339,8 @@ $('#travelType').change(function() {
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.cartranspoll);
       $("#duration").val(window.cartime);
+      $("#distancevalue").val($("#cdistance").val());
+      $("#distance").val(window.cardistance);
     }else if (opt == "uber") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -322,6 +350,8 @@ $('#travelType').change(function() {
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.ubertranspoll);
       $("#duration").val(window.ubertime);
+      $("#distancevalue").val($("#cdistance").val());
+      $("#distance").val(window.uberdistance);
     }else if (opt == "hov") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -331,6 +361,8 @@ $('#travelType').change(function() {
       $(".pollpub").addClass('d-none');
       $("#pollute").val(window.hovtranspoll);
       $("#duration").val(window.hovtime);
+      $("#distancevalue").val($("#cdistance").val());
+      $("#distance").val(window.hovdistance);
     }else if (opt == "pub") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -340,6 +372,8 @@ $('#travelType').change(function() {
       $(".pollpub").removeClass('d-none');
       $("#pollute").val(window.pubtranspoll);
       $("#duration").val(window.transtime);
+      $("#distancevalue").val($("#pdistance").val());
+      $("#distance").val(window.pubdistance);
     }
 });
 
