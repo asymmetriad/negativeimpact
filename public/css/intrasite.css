@@ -2053,3 +2053,44 @@ li.nav-items a:visited {
 .custom-dropdown::after {
   color: rgba(0,0,0,.4);
 }
+
+#welcome{
+  color: #1b8399;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+
+#newtrip{
+  font-size: 20px;
+  color: #4ccbe6;
+  background-color: #1b8399;
+  padding: 2px 20px;
+  border: none;
+  margin: 4px 2px;
+}
+#profile{
+  font-size: 20px;
+  width: 800px;
+}
+#pollution, #distance{
+  display: inline-block;
+}
+#totalpollution{
+  display: inline-block;
+  width: 200px;
+}
+#co2image{
+  display: inline-block;
+}
+#totaldistance{
+  display: inline-block;
+  width: 200px;
+}
+#distanceimage{
+  display: inline-block;
+}
+div.pasttrip{
+  overflow-y: scroll;
+  height: 200px;
+  background-color: inherit;
+}
