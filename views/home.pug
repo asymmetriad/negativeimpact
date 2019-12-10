@@ -20,7 +20,7 @@ block content
         code #{user.distance}      
       h5.h5.white Past Trips:
       pre
-        each trip in trips
+        each trip in trips.reverse()
           code Start Address: #{trip.start_addr}
           br
           code End Address: #{trip.end_addr}
