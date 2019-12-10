@@ -8,7 +8,7 @@ block content
       h4.h4.white Welcome #{user.nickname}!
       img(src=user.picture)
       h4.h4.white User profile
-      a(href="http://localhost:3000/newtrip")
+      a(href="http://localhost:3000/newtrip") 
         button.btn.btn-light(type='button') New Trip
       br
       br
@@ -32,6 +32,9 @@ block content
           code Trip Method: #{trip.method}
           br
           code Resultant CO2 (kg): #{trip.pollution}
+          br
+          form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
+            input(type='submit' class="delbutton btn btn-danger" value='Delete')
           br
           br
       br

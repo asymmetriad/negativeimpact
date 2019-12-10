@@ -86,8 +86,23 @@ router.get('/savetrip',secured(),function(req,res,next){
   });
 });
 
-router.post('/deletetrip/:tripid',secured(),function(req,res,next){
-
+router.post('/deltrip/:tripid',secured(),function(req,res,next){
+  var tripId = req.param('tripid');
+  const { _raw, _json, ...userProfile } = req.user;
+  var User = user.user;
+  var find_user = user.find_user;
+  var Trip = trip.trip;
+  const removetrip = user.removeusertrip;
+  Trip.findByIdAndRemove(tripId, (error,tripOb) => {
+    if (error) res.direct("/user");
+    find_user(userProfile.user_id,function(error,useroo){
+      if (error) {
+        console.log(error);
+      }
+      removetrip(useroo._id,tripOb._id,tripOb.pollution);
+      res.redirect('/user');
+    });
+  });
 });
 
 module.exports = router;
