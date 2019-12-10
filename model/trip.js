@@ -11,6 +11,7 @@ const tripSchema = new Schema({
     method: {type:String},
     pollution: {type:Number},
     duration: {type:String},
+    fdistance: {type:Number},
     distance: {type:String}
 }, {
   timestamps:true
