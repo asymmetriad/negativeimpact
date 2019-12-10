@@ -77,12 +77,11 @@ router.get('/savetrip',secured(),function(req,res,next){
     tripOb.method = req.query.travel;
     tripOb.pollution = req.query.poll;
     tripOb.duration = req.query.duration;
-    tripOb.distance = req.query.distance;
-    tripOb.fdistance = req.query.distancevalue;
-    tripOb.save();
-    console.log(tripOb.pollution);
+    tripOb.distance = req.query.distancevalue * 0.0006213712;
+    tripOb.save(req.query.distancevalue);
+    console.log()
     console.log(useroo);
-    addtrip(useroo._id,tripOb._id,tripOb.pollution,req.query.distancevalue);
+    addtrip(useroo._id,tripOb._id,tripOb.pollution,req.query.distancevalue * 0.0006213712);
     res.redirect('/user');
   });
 });
