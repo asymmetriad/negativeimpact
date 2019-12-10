@@ -45,9 +45,14 @@ function addTripToUser (user_id, trip_id, pollution , distance) {
   User.findByIdAndUpdate(user_id,{$inc:{distance:distance}},callItBack);
 }
 
-function removeTripFromUser (user_id,trip_id,distance,pollution, distance) {
+function removeTripFromUser (user_id,trip_id,distance,pollution) {
   var User = db.model('User',userSchema);
-  User.findByIdAndUpdate(user_id,{$pull:{history:trip_id},$inc:{pollution:-(pollution)},$inc:{distance:-(distance)}},callItBack);
+  User.findOne({'_id' : user_id}, function(err, me){
+    me.history.remove(trip_id);
+    me.distance = me.distance-distance;
+    me.pollution = me.pollution-pollution;
+    me.save(callItBack);
+  });
 }
 
 module.exports.find_user = retrieveUser;

@@ -100,7 +100,7 @@ router.post('/deltrip/:tripid',secured(),function(req,res,next){
       if (error) {
         console.log(error);
       }
-      removetrip(useroo._id,tripOb._id,tripOb.pollution);
+      removetrip(useroo._id,tripOb._id,tripOb.distance,tripOb.pollution);
       res.redirect('/user');
     });
   });

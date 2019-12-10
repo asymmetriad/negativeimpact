@@ -25,13 +25,13 @@ block content
           br
           code End Address: #{trip.end_addr}
           br
-          code Trip duration: #{trip.duration}
+          code Trip Duration: #{trip.duration}
           br
-          code Trip distance: #{trip.distance}
+          code Trip Distance (mi): #{trip.distance}
           br
           code Trip Method: #{trip.method}
           br
-          code Resultant CO2 (kg): #{trip.pollution}
+          code Resultant CO2 (g): #{trip.pollution}
           br
           form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
             input(type='submit' class="delbutton btn btn-danger" value='Delete')
