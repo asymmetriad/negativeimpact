@@ -14,10 +14,10 @@ block content
       br
       h5.h5.white Grams of Carbon Dioxide Released Into the Atmosphere During Your Trips:
       pre
-        code #{user.pollution}
+        code #{(user.pollution).toFixed(2) + " g"}
       h5.h5.white Total Distance Traveled (mi):
       pre
-        code #{user.distance}
+        code #{(user.distance).toFixed(2) + " miles"}
       h5.h5.white Past Trips:
       pre
         each trip in trips.reverse()
@@ -27,11 +27,11 @@ block content
           br
           code Trip Duration: #{trip.duration}
           br
-          code Trip Distance (mi): #{trip.distance}
+          code Trip Distance : #{(trip.distance).toFixed(2) + " miles"}
           br
           code Trip Method: #{trip.method}
           br
-          code Resultant CO2 (g): #{trip.pollution}
+          code Resultant CO2 : #{(trip.pollution).toFixed(2) + " g"}
           br
           form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
             input(type='submit' class="delbutton btn btn-danger" value='Delete')
