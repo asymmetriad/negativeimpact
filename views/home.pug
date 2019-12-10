@@ -17,7 +17,7 @@ block content
         code #{user.pollution}
       h5.h5.white Total Distance Traveled (mi):
       pre
-        code #{user.distance}      
+        code #{user.distance}
       h5.h5.white Past Trips:
       pre
         each trip in trips.reverse()
@@ -25,7 +25,9 @@ block content
           br
           code End Address: #{trip.end_addr}
           br
-          code Trip Distance: #{trip.distance}
+          code Trip duration: #{trip.duration}
+          br
+          code Trip distance: #{trip.distance}
           br
           code Trip Method: #{trip.method}
           br

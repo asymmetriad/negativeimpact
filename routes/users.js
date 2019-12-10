@@ -71,14 +71,17 @@ router.get('/savetrip',secured(),function(req,res,next){
       console.log(error);
     }
     var tripOb = new Trip();
+    console.log(req.query.distance);
     tripOb.start_addr = req.query.startadd;
     tripOb.end_addr = req.query.stopadd;
     tripOb.user = useroo._id;
     tripOb.method = req.query.travel;
     tripOb.pollution = req.query.poll;
+    tripOb.duration = req.query.duration;
+    tripOb.distance = req.query.distance;
     tripOb.save();
     console.log(useroo);
-    addtrip(useroo._id,tripOb._id,tripOb.pollution);
+    addtrip(useroo._id,tripOb._id,tripOb.pollution,req.query.distance);
     res.redirect('/user');
   });
 });
