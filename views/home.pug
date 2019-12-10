@@ -31,7 +31,7 @@ block content
           br
           code Trip Method: #{trip.method}
           br
-          code Resultant CO2 : #{(trip.pollution).toFixed(2) + " g"}
+          code Resultant CO2: #{(trip.pollution).toFixed(2) + " g"}
           br
           form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
             input(type='submit' class="delbutton btn btn-danger" value='Delete')
