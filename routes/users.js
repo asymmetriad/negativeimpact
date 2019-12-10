@@ -71,7 +71,6 @@ router.get('/savetrip',secured(),function(req,res,next){
       console.log(error);
     }
     var tripOb = new Trip();
-    console.log(req.query.distance);
     tripOb.start_addr = req.query.startadd;
     tripOb.end_addr = req.query.stopadd;
     tripOb.user = useroo._id;
@@ -80,6 +79,7 @@ router.get('/savetrip',secured(),function(req,res,next){
     tripOb.duration = req.query.duration;
     tripOb.distance = req.query.distance;
     tripOb.save();
+    console.log(tripOb.pollution);
     console.log(useroo);
     addtrip(useroo._id,tripOb._id,tripOb.pollution,req.query.distancevalue);
     res.redirect('/user');
