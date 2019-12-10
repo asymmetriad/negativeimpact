@@ -2000,7 +2000,7 @@ li.nav-items a:visited {
 }
 
 .custom-dropdown select {
-  background-color: darkred;
+  background-color: #0056b3;
   color: #fff;
   font-size: inherit;
   padding: .5em;
