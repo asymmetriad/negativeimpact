@@ -47,6 +47,7 @@ router.post('/users/fsignup',secured(), function (req, res, next){
   var initiate = new User(req.body);
   initiate.auth0_id = userProfile.user_id;
   initiate.pollution = 0;
+  initiate.distance = 0;
   initiate.save();
   res.redirect('/user');
 });
