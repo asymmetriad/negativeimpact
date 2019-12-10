@@ -34,6 +34,10 @@ Create a file called .env and do not check it into git.
 Type in something like this:
 
 ```
+HERE_APP_ID=
+HERE_FE_APP_ID=
+HERE_API_KEY=
+HERE_APP_CODE=
 AUTH0_CLIENT_ID=YOUR_CLIENT_ID
 AUTH0_DOMAIN=localhost:3000
 AUTH0_CLIENT_SECRET=YOUR_CLIENT_SECRET
