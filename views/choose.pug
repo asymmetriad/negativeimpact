@@ -27,6 +27,13 @@ block content
               input.form-control(type='hidden' name="startadd" id="startadder")
               input.form-control(type='hidden' name="stopadd" id="stopadder")
               input.form-control(type='hidden' name="duration" id="duration")
+              input.form-control(type='hidden' name="distance" id="distance")
+              input.form-control(type='hidden' name="distancevalue" id="distancevalue")
+
+              input.form-control(type='hidden' name="wdistance" id="wdistance")
+              input.form-control(type='hidden' name="bdistance" id="bdistance")
+              input.form-control(type='hidden' name="cdistance" id="cdistance")
+              input.form-control(type='hidden' name="pdistance" id="pdistance")
           br
           span
             button(type = "submit") Add Trip to Trip History
@@ -34,6 +41,8 @@ block content
         .d-none.pollwalk
           h5.h5.white Estimate trip time:
           p.p.white#walktime
+          h5.h5.white Trip distance:
+          p.p.white#walkdistance
           h5.h5.white Pollution created via Pedestrian Route (kg of CO2, any value below greater than 0 is due to a ferry ride in the itinerary):
           p.p.white#pedpoll
           h5.h5.white Pedestrian Route
@@ -41,6 +50,8 @@ block content
         .d-none.pollbike
           h5.h5.white Estimate trip time:
           p.p.white#biketime
+          h5.h5.white Trip distance:
+          p.p.white#bikedistance
           h5.h5.white Pollution created via Bicycle Route (kg of CO2):
           p.p.white#bikepoll
           h5.h5.white Bicycle Route
@@ -48,6 +59,8 @@ block content
         .d-none.pollcar
           h5.h5.white Estimate trip time:
           p.p.white#cartime
+          h5.h5.white Trip distance:
+          p.p.white#cardistance
           h5.h5.white Pollution created via Car Route (kg of CO2):
           p.p.white#carpoll
           h5.h5.white Car Route
@@ -55,6 +68,8 @@ block content
         .d-none.polluber
           h5.h5.white Estimate trip time:
           p.p.white#ubertime
+          h5.h5.white Trip distance:
+          p.p.white#uberdistance
           h5.h5.white Pollution created via Rideshare(Uber,Lyft,etc.) Route (kg of CO2):
           p.p.white#uberpoll
           h5.h5.white Potential Rideshare Route
@@ -62,6 +77,8 @@ block content
         .d-none.pollhov
           h5.h5.white Estimate trip time:
           p.p.white#hovtime
+          h5.h5.white Trip distance:
+          p.p.white#hovdistance
           h5.h5.white Pollution created via Carpool/HOV Route (kg of CO2):
           p.p.white#hovpoll
           h5.h5.white Carpool/HOV Route
@@ -69,6 +86,8 @@ block content
         .d-none.pollpub
           h5.h5.white Estimate trip time:
           p.p.white#transtime
+          h5.h5.white Trip distance:
+          p.p.white#pubdistance
           h5.h5.white Pollution created via Public Transit Route (kg of CO2):
           p.p.white#pubpoll
           h5.h5.white Public Transit Route
