@@ -10,7 +10,8 @@ const tripSchema = new Schema({
     end_addr: {type:String},
     method: {type:String},
     pollution: {type:Number},
-    duration: {type:String}
+    duration: {type:String},
+    distance: {type:String}
 }, {
   timestamps:true
 });
