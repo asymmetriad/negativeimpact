@@ -47,6 +47,7 @@ router.post('/users/fsignup',secured(), function (req, res, next){
   var initiate = new User(req.body);
   initiate.auth0_id = userProfile.user_id;
   initiate.pollution = 0;
+  initiate.distance = 0;
   initiate.save();
   res.redirect('/user');
 });
@@ -76,15 +77,33 @@ router.get('/savetrip',secured(),function(req,res,next){
     tripOb.user = useroo._id;
     tripOb.method = req.query.travel;
     tripOb.pollution = req.query.poll;
-    tripOb.save();
+    tripOb.duration = req.query.duration;
+    tripOb.distance = req.query.distancevalue * 0.0006213712;
+    tripOb.save(req.query.distancevalue);
+    console.log()
     console.log(useroo);
-    addtrip(useroo._id,tripOb._id,tripOb.pollution);
+    addtrip(useroo._id,tripOb._id,tripOb.pollution,req.query.distancevalue * 0.0006213712);
     res.redirect('/user');
   });
 });
 
-router.post('/deletetrip/:tripid',secured(),function(req,res,next){
-
+router.post('/deltrip/:tripid',secured(),function(req,res,next){
+  var tripId = req.param('tripid');
+  const { _raw, _json, ...userProfile } = req.user;
+  var User = user.user;
+  var find_user = user.find_user;
+  var Trip = trip.trip;
+  const removetrip = user.removeusertrip;
+  Trip.findByIdAndRemove(tripId, (error,tripOb) => {
+    if (error) res.direct("/user");
+    find_user(userProfile.user_id,function(error,useroo){
+      if (error) {
+        console.log(error);
+      }
+      removetrip(useroo._id,tripOb._id,tripOb.distance,tripOb.pollution);
+      res.redirect('/user');
+    });
+  });
 });
 
 module.exports = router;

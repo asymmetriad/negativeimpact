@@ -7,9 +7,9 @@ block content
       header
       <h2 id='welcome'>Welcome #{user.nickname}! <h2>
       img(src=user.picture)
-      button(onclick="window.location.href = 'http://localhost:3000/newtrip';" id='newtrip') New Trip
-      br
-      br
+      h4.h4.white User profile
+      a(href="http://localhost:3000/newtrip")
+        button.btn.btn-light(type='button') New Trip
       br
       br
       <div id='profile'>
@@ -20,7 +20,7 @@ block content
           <div id='totalpollution'>
             h6.h6.white Grams of Carbon Dioxide Released Into the Atmosphere During Your Trips:
             pre
-              code #{user.pollution}
+              code #{(user.pollution).toFixed(2) + " g"}
           </div>
         </div>
         <div id=distance>
@@ -30,22 +30,34 @@ block content
           <div id='totaldistance'>
             h6.h6.white Total Distance <br> Traveled (mi):
             pre
-              code #{user.distance}  
+              code #{(user.distance).toFixed(2) + " miles"} 
           </div>    
         </div>
         h5.h5.white Past Trips:
         <div class='pasttrip'>
           pre
-            each trip in trips
+            each trip in trips.reverse()
               code Start Address: #{trip.start_addr}
               br
               code End Address: #{trip.end_addr}
               br
-              code Trip Distance: #{trip.distance}
+              code Trip Duration: #{trip.duration}
+              br
+              if trip.distance
+                      code Trip Distance: #{(trip.distance).toFixed(2) + " miles"}
+              else
+                      code Trip Distance: #{(trip.distance) + " miles"}
               br
               code Trip Method: #{trip.method}
               br
-              code Resultant CO2 (kg): #{trip.pollution}
+              if trip.pollution
+                      code Resultant CO2: #{(trip.pollution).toFixed(2) + " g"}
+              else
+                      code Resultant CO2: #{(trip.pollution) + " g"}
+              br
+              br
+              form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
+                input(type='submit' class="delbutton btn btn-danger" value='Delete')
               br
               br
         </div>
