@@ -34,29 +34,18 @@ function retrieveUser (auth0_id, callback) {
   });
 }
 
-function addTripToUser (_id, trip_id, pollution) {
-  var User = db.model('User',userSchema);
-  console.log(pollution);
-  //User.updateOne({_id:_id},{$inc:{pollution:pollution+1}})
-  User.updateOne({_id:_id},{$push:{history:[trip_id]}})
-  .then((result) => {
-        console.log(result);
-    })
-    .catch((err) => {
-        console.log(err);
-    });
-  User.updateOne({_id:_id},{$inc:{pollution:+pollution}})
-  .then((result) => {
-        console.log(result);
-    })
-    .catch((err) => {
-        console.log(err);
-    });
+function callItBack () {
+  console.log("Trip sucessfully added to user history");
 }
 
-function removeTripFromUser (_id,trip_id,distance,pollution) {
+function addTripToUser (user_id, trip_id, pollution , distance) {
   var User = db.model('User',userSchema);
-  User.updateOne({_id:_id},{$pull:{history:trip_id},$inc:{pollution:-(pollution)}});
+  User.findByIdAndUpdate(user_id,{$push:{history:trip_id},$inc:{pollution:pollution},$inc:{distance:distance}},callItBack);
+}
+
+function removeTripFromUser (user_id,trip_id,distance,pollution, distance) {
+  var User = db.model('User',userSchema);
+  User.findByIdAndUpdate(user_id,{$pull:{history:trip_id},$inc:{pollution:-(pollution)},$inc:{distance:-(distance)}},callItBack);
 }
 
 module.exports.find_user = retrieveUser;
