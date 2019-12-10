@@ -246,7 +246,7 @@ function trip_duration_distance(startlatlong,stoplatlong,travelmode){
       console.log(response.rows[0]);
       console.log(response.rows[0].elements[0].distance.text);
       var duration = response.rows[0].elements[0].duration.text;
-      var distance = response.rows[0].elements[0].distance.text;
+      var distance = response.rows[0].elements[0].distance.value * 0.0006213712;
 
       if(travelmode == "WALKING"){
         var time = document.getElementById("walktime");
@@ -318,7 +318,6 @@ $('#travelType').change(function() {
       $("#pollute").val(window.pedtranspoll);
       $("#duration").val(window.walktime);
       $("#distancevalue").val($("#wdistance").val());
-      $("#distance").val(window.walkdistance);
     }else if (opt == "bike") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").removeClass('d-none');
@@ -329,7 +328,6 @@ $('#travelType').change(function() {
       $("#pollute").val(window.biketranspoll);
       $("#duration").val(window.biketime);
       $("#distancevalue").val($("#bdistance").val());
-      $("#distance").val(window.bikedistance);
     }else if (opt == "car") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -340,7 +338,6 @@ $('#travelType').change(function() {
       $("#pollute").val(window.cartranspoll);
       $("#duration").val(window.cartime);
       $("#distancevalue").val($("#cdistance").val());
-      $("#distance").val(window.cardistance);
     }else if (opt == "uber") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -351,7 +348,6 @@ $('#travelType').change(function() {
       $("#pollute").val(window.ubertranspoll);
       $("#duration").val(window.ubertime);
       $("#distancevalue").val($("#cdistance").val());
-      $("#distance").val(window.uberdistance);
     }else if (opt == "hov") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -362,7 +358,6 @@ $('#travelType').change(function() {
       $("#pollute").val(window.hovtranspoll);
       $("#duration").val(window.hovtime);
       $("#distancevalue").val($("#cdistance").val());
-      $("#distance").val(window.hovdistance);
     }else if (opt == "pub") {
       $(".pollwalk").addClass('d-none');
       $(".pollbike").addClass('d-none');
@@ -373,7 +368,6 @@ $('#travelType').change(function() {
       $("#pollute").val(window.pubtranspoll);
       $("#duration").val(window.transtime);
       $("#distancevalue").val($("#pdistance").val());
-      $("#distance").val(window.pubdistance);
     }
 });
 
