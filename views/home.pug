@@ -8,29 +8,26 @@ block content
       h4.h4.white Welcome #{user.nickname}!
       img(src=user.picture)
       h4.h4.white User profile
-      a(href="http://localhost:3000/newtrip") New trip
-      h5.h5.white TODO:
-      code Previous trips:
-      br
-      code Statewide and Nationwide statistics based on users of Negative Impact
-      br
-      code Social Comparison Feed
+      a(href="http://localhost:3000/newtrip")
+        button.btn.btn-light(type='button') New Trip
       br
       br
-      h5.h5.white Kilograms of Carbon Dioxide Released Into the Atmosphere During Your Trips:
+      h5.h5.white Grams of Carbon Dioxide Released Into the Atmosphere During Your Trips:
       pre
         code #{user.pollution}
       h5.h5.white Total Distance Traveled (mi):
       pre
-        code #{user.distance}      
+        code #{user.distance}
       h5.h5.white Past Trips:
       pre
-        each trip in trips
+        each trip in trips.reverse()
           code Start Address: #{trip.start_addr}
           br
           code End Address: #{trip.end_addr}
           br
-          code Trip Distance: #{trip.distance}
+          code Trip duration: #{trip.duration}
+          br
+          code Trip distance: #{trip.distance}
           br
           code Trip Method: #{trip.method}
           br
