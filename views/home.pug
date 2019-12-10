@@ -12,35 +12,53 @@ block content
         button.btn.btn-light(type='button') New Trip
       br
       br
-      h5.h5.white Carbon Dioxide Released Into the Atmosphere During Your Trips:
-      pre
-        code #{(user.pollution).toFixed(2) + " g"}
-      h5.h5.white Total Distance Traveled:
-      pre
-        code #{(user.distance).toFixed(2) + " miles"}
-      h5.h5.white Past Trips:
-      pre
-        each trip in trips.reverse()
-          code Start Address: #{trip.start_addr}
-          br
-          code End Address: #{trip.end_addr}
-          br
-          code Trip Duration: #{trip.duration}
-          br
-          if trip.distance
-                  code Trip Distance: #{(trip.distance).toFixed(2) + " miles"}
-          else
-                  code Trip Distance: #{(trip.distance) + " miles"}
-          br
-          code Trip Method: #{trip.method}
-          br
-          if trip.pollution
-                  code Resultant CO2: #{(trip.pollution).toFixed(2) + " g"}
-          else
-                  code Resultant CO2: #{(trip.pollution) + " g"}
-          br
-          form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
-            input(type='submit' class="delbutton btn btn-danger" value='Delete')
-          br
-          br
-      br
+      <div id='profile'>
+        <div id='pollution'>
+          <div id='co2image'>
+            img(src="http://localhost:3000/image/co2-icon.png" height="80" width="80" align="left")
+          </div>
+          <div id='totalpollution'>
+            h6.h6.white Grams of Carbon Dioxide Released Into the Atmosphere During Your Trips:
+            pre
+              code #{(user.pollution).toFixed(2) + " g"}
+          </div>
+        </div>
+        <div id=distance>
+          <div id='distanceimage'>
+            img(src="http://localhost:3000/image/traveldistance.png" height="80" width="80" align="left")
+          </div>
+          <div id='totaldistance'>
+            h6.h6.white Total Distance <br> Traveled (mi):
+            pre
+              code #{(user.distance).toFixed(2) + " miles"} 
+          </div>    
+        </div>
+        h5.h5.white Past Trips:
+        <div class='pasttrip'>
+          pre
+            each trip in trips.reverse()
+              code Start Address: #{trip.start_addr}
+              br
+              code End Address: #{trip.end_addr}
+              br
+              code Trip Duration: #{trip.duration}
+              br
+              if trip.distance
+                      code Trip Distance: #{(trip.distance).toFixed(2) + " miles"}
+              else
+                      code Trip Distance: #{(trip.distance) + " miles"}
+              br
+              code Trip Method: #{trip.method}
+              br
+              if trip.pollution
+                      code Resultant CO2: #{(trip.pollution).toFixed(2) + " g"}
+              else
+                      code Resultant CO2: #{(trip.pollution) + " g"}
+              br
+              br
+              form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
+                input(type='submit' class="delbutton btn btn-danger" value='Delete')
+              br
+              br
+        </div>
+      </div>
