@@ -253,7 +253,7 @@ function trip_duration_distance(startlatlong,stoplatlong,travelmode){
         time.innerHTML = window.walktime = duration;
 
         var dis = document.getElementById("walkdistance");
-        dis.innerHTML = window.walkdistance = distance;
+        dis.innerHTML = window.walkdistance = distance.toFixed(2) + " miles";
         $("#wdistance").val(response.rows[0].elements[0].distance.value);
       }
       else if(travelmode == "BICYCLING"){
@@ -261,7 +261,7 @@ function trip_duration_distance(startlatlong,stoplatlong,travelmode){
         time.innerHTML = window.biketime = duration;
 
         var dis = document.getElementById("bikedistance");
-        dis.innerHTML = window.bikedistance = distance;
+        dis.innerHTML = window.bikedistance = distance.toFixed(2) + " miles";
         $("#bdistance").val(response.rows[0].elements[0].distance.value);
       }
       else if(travelmode == "DRIVING"){
@@ -275,9 +275,9 @@ function trip_duration_distance(startlatlong,stoplatlong,travelmode){
         var cardis = document.getElementById("cardistance");
         var uberdis = document.getElementById("uberdistance");
         var hovdis = document.getElementById("hovdistance");
-        cardis.innerHTML = window.cardistance = distance;
-        uberdis.innerHTML = window.uberdistance = distance;
-        hovdis.innerHTML = window.hovdistance = distance;
+        cardis.innerHTML = window.cardistance = distance.toFixed(2) + " miles";
+        uberdis.innerHTML = window.uberdistance = distance.toFixed(2) + " miles";
+        hovdis.innerHTML = window.hovdistance = distance.toFixed(2) + " miles";
         $("#cdistance").val(response.rows[0].elements[0].distance.value);
       }
       else if(travelmode == "TRANSIT"){
@@ -285,7 +285,7 @@ function trip_duration_distance(startlatlong,stoplatlong,travelmode){
         time.innerHTML = window.transtime = duration;
 
         var dis = document.getElementById("pubdistance");
-        dis.innerHTML = window.pubdistance = distance;
+        dis.innerHTML = window.pubdistance = distance.toFixed(2) + " miles";
         $("#pdistance").val(response.rows[0].elements[0].distance.value);
       }
     }
