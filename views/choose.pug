@@ -17,7 +17,7 @@ block content
               select(name="travel",id="travelType",form="travelForm" required)
                 option(selected="true" disabled="disabled") Choose...
                 option(value='ped') Walk (Ferry on crossing water)
-                option(value='bike') Bike
+                option(value='bike') Bike (Ferry on crossing water)
                 option(value='car') Car
                 option(value='uber') Ridesharing Service
                 option(value='hov') Carpool (HOV lane)
@@ -52,7 +52,7 @@ block content
           p.p.white#biketime
           h5.h5.white Trip Distance:
           p.p.white#bikedistance
-          h5.h5.white Pollution Created Via Bicycle Route (g of CO2):
+          h5.h5.white Pollution Created Via Bicycle Route (g of CO2, any value below greater than 0 is due to a ferry ride in the itinerary):
           p.p.white#bikepoll
           h5.h5.white Bicycle Route
           #bikedirections.white
