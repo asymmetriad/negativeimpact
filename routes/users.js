@@ -78,6 +78,7 @@ router.get('/savetrip',secured(),function(req,res,next){
     tripOb.pollution = req.query.poll;
     tripOb.duration = req.query.duration;
     tripOb.distance = req.query.distance;
+    tripOb.fdistance = req.query.distancevalue;
     tripOb.save();
     console.log(tripOb.pollution);
     console.log(useroo);
