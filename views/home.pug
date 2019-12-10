@@ -31,5 +31,8 @@ block content
           br
           code Resultant CO2 (kg): #{trip.pollution}
           br
+          form(action="/deltrip/"+trip._id method='post' class="delform" name="delform")
+            input(type='submit' class="delbutton btn btn-danger" value='Delete')
+          br
           br
       br
