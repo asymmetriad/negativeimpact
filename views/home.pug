@@ -15,7 +15,7 @@ block content
       h5.h5.white Grams of Carbon Dioxide Released Into the Atmosphere During Your Trips:
       pre
         code #{(user.pollution).toFixed(2) + " g"}
-      h5.h5.white Total Distance Traveled (mi):
+      h5.h5.white Total Distance Traveled:
       pre
         code #{(user.distance).toFixed(2) + " miles"}
       h5.h5.white Past Trips:
@@ -27,7 +27,7 @@ block content
           br
           code Trip Duration: #{trip.duration}
           br
-          code Trip Distance : #{(trip.distance).toFixed(2) + " miles"}
+          code Trip Distance: #{(trip.distance).toFixed(2) + " miles"}
           br
           code Trip Method: #{trip.method}
           br
